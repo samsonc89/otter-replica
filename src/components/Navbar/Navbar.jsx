@@ -3,7 +3,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="nav-wrapper">
+    <nav className="nav-wrapper container">
       <div className="nav-logo-wrapper"></div>
       <div className="nav-items">
         <NavLinks />
