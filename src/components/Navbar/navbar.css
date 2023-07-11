@@ -15,18 +15,16 @@ nav {
   position: absolute;
   z-index: -1;
 }
-nav ul,
-.nav-items {
+nav ul {
   display: flex;
   gap: 12px;
 }
 
-li {
-  list-style: none;
-}
-nav a {
-  text-decoration: none;
-  cursor: pointer;
+.nav-items {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 980px) {
