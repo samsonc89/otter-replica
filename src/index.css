@@ -59,6 +59,12 @@ li {
 button {
   cursor: pointer;
 }
+
+.btn {
+  background-color: hsl(0deg 0% 100%);
+  border: none;
+  font-weight: 500;
+}
 /* 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops
