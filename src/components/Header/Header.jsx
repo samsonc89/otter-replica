@@ -5,9 +5,9 @@ const Header = () => {
     <header className="header-wrapper container">
       <div className="hero-container"></div>
       <div className="hero-text">
-        <h1 className="light-text">Reliable kidcare on demand</h1>
-        <p className="light-text">
-          Otter matches parents who need care with trusted sitters in their
+        <h1 className="light-text">Reliable petcare on demand</h1>
+        <p className="light-text main-text hero-p">
+          Sitter matches pet-parents who need care with trusted sitters in their
           community, on-demand.
         </p>
       </div>
