@@ -1,6 +1,40 @@
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 3vh 0;
+}
+
+.nav-logo-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+nav ul,
+.nav-items {
+  display: flex;
+  gap: 12px;
+}
+
 li {
   list-style: none;
 }
 nav a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {
+  .nav-logo-wrapper {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-container {
+    max-width: 100%;
+  }
 }
