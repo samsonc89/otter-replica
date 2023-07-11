@@ -1,6 +1,6 @@
 const NavLinks = () => {
   return (
-    <>
+    <ul>
       <li>
         <a href="#parents">Parents</a>
       </li>
@@ -13,7 +13,7 @@ const NavLinks = () => {
       <li>
         <a href="#blog">Blog</a>
       </li>
-    </>
+    </ul>
   );
 };
 
