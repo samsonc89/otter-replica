@@ -13,8 +13,18 @@ nav {
   align-items: center;
   justify-content: center;
   position: absolute;
-  z-index: -1;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
+  /* z-index: -1; */
+  pointer-events: auto;
 }
+
+.nav-logo-wrapper > a {
+  z-index: 2;
+}
+
 nav ul {
   display: flex;
   gap: 1em;
@@ -26,6 +36,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .login-wrapper {
