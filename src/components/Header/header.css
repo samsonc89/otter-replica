@@ -1,0 +1,27 @@
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-text {
+  width: 50%;
+  position: absolute;
+}
+
+.hero-container {
+  width: 100%;
+  height: 83vh;
+  background-color: hsl(187deg 93% 13%);
+  border-radius: 80px;
+  display: flex;
+}
+
+@media screen and (max-width: 1025px) {
+}
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 480px) {
+}
