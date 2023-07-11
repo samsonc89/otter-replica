@@ -72,9 +72,13 @@ h1 {
   letter-spacing: -0.02em;
   word-spacing: -0.05em;
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.2;
   font-family: "Libre Baskerville", serif;
+}
+
+.main-text {
+  font-size: 1.5rem;
 }
 
 .light-text {
@@ -84,3 +88,29 @@ h1 {
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops
 1025px — 1200px: Desktops, large screens */
+@media screen and (max-width: 1025px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  .container {
+    width: 85%;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+  .main-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .main-text {
+    font-size: 1.125rem;
+    margin-bottom: 1em;
+  }
+}

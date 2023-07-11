@@ -18,10 +18,31 @@
   display: flex;
 }
 
+.hero-p {
+  margin: 10px 2vw;
+}
+
 @media screen and (max-width: 1025px) {
+  .hero-container {
+    height: 60vh;
+  }
+  .hero-p {
+    margin: 10px 2.5vw;
+  }
 }
 @media screen and (max-width: 980px) {
+  .hero-container {
+    height: 63vh;
+    max-height: 710px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .hero-container {
+    height: 75vh;
+    max-height: 550px;
+  }
+  .hero-text {
+    width: 80%;
+  }
 }
