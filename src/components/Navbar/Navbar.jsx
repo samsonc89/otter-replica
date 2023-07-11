@@ -1,6 +1,7 @@
 import "./navbar.css";
 import logo from "../../assets/logo.png";
 import NavLinks from "./NavLinks";
+import UserAccess from "./UserAccess";
 
 const Navbar = () => {
   return (
@@ -10,6 +11,7 @@ const Navbar = () => {
       </div>
       <div className="nav-items">
         <NavLinks />
+        <UserAccess />
       </div>
     </nav>
   );
