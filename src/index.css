@@ -6,12 +6,14 @@
 * {
   margin: 0;
   padding: 0;
-  font: inherit;
+  /* font: inherit; */
+  text-align: center;
 }
 body {
   font-family: "Rubik", sans-serif;
   --main-bg-color: hsl(20deg 17% 97%);
   --main-text-color: hsl(187deg 93% 13%);
+  --light-text-color: hsl(0deg 0% 100%);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
@@ -64,6 +66,19 @@ button {
   background-color: hsl(0deg 0% 100%);
   border: none;
   font-weight: 500;
+}
+
+h1 {
+  letter-spacing: -0.02em;
+  word-spacing: -0.05em;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Libre Baskerville", serif;
+}
+
+.light-text {
+  color: var(--light-text-color);
 }
 /* 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
