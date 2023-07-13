@@ -6,7 +6,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* font: inherit; */
+  font: inherit;
   text-align: center;
 }
 body {
@@ -17,6 +17,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
+  font-size: 1rem;
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
 }
@@ -65,7 +66,6 @@ button {
 .btn {
   background-color: hsl(0deg 0% 100%);
   border: none;
-  font-weight: 500;
 }
 
 h1 {
