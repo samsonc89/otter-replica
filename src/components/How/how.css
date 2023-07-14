@@ -89,6 +89,13 @@
   .how-column {
     width: 100%;
   }
+  .how-text-wrapper {
+    width: 70%;
+    gap: 1em;
+  }
+  .how-right {
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
 }
