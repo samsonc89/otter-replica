@@ -49,6 +49,10 @@ h6 {
   margin-right: auto;
 }
 
+.main-section {
+  padding: 5rem 0;
+}
+
 a,
 a:visited {
   color: inherit;
@@ -85,8 +89,10 @@ h1 {
   color: var(--light-text-color);
 }
 
-.main-section {
-  padding: 5rem 0;
+.small-heading {
+  font-size: 0.87rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .content-heading {

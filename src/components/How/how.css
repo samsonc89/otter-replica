@@ -17,14 +17,11 @@
   align-items: flex-start;
 }
 
-.how-text-wrapper p {
-  text-align: start;
+.how-text-wrapper {
+  gap: 2em;
 }
-
-.tiny {
-  font-size: 0.87rem;
-  font-weight: 500;
-  text-transform: uppercase;
+.how-text-wrapper > * {
+  text-align: start;
 }
 
 .how-tab-content-wrapper {

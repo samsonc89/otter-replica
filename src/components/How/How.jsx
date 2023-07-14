@@ -8,7 +8,7 @@ const How = () => {
       <div className="how-wrapper">
         <div className="how-column how-left">
           <div className="how-text-wrapper">
-            <p className="tiny">how it works</p>
+            <p className="small-heading">how it works</p>
             <h2 className="content-heading">
               We help families find reliable, flexible kidcare
             </h2>
