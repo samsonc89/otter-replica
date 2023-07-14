@@ -23,13 +23,17 @@ const Header = () => {
 
       <div className="hero-container">
         <div className="hero-column">
-          <div className="hero-shape-top-left-container">
+          <div className="hero-shape-top-left-container hero-shape-container">
             <div className="hero-shape hero-shape-top-left">
               <img src={dog} className="dog-image" />
             </div>
           </div>
-          <div className="hero-shape-middle-left hero-shape"></div>
-          <div className="hero-shape-bottom-left hero-shape"></div>
+          <div className=" hero-shape-container  hero-shape-middle-left-container">
+            <div className="hero-shape hero-shape-middle-left"></div>
+          </div>
+          <div className="hero-shape-container hero-shape-bottom-left-container">
+            <div className="hero-shape-bottom-left hero-shape"></div>
+          </div>
         </div>
         <div className="hero-column"></div>
       </div>
