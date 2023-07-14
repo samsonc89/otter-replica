@@ -1,5 +1,6 @@
 import "./header.css";
-import dog from "../../assets/dog1.jpg";
+import topLeft from "../../assets/dog1.jpg";
+import bottomLeft from "../../assets/bottomLeft.jpg";
 
 const Header = () => {
   return (
@@ -19,20 +20,40 @@ const Header = () => {
             <path d="M0.924,0.106 C0.986,0.152,1,0.253,1,0.324 C1,0.395,0.824,0.999,0.622,1 C0.415,1,0.162,0.843,0.042,0.663 C-0.018,0.573,-0.001,0.324,0.018,0.252 C0.037,0.18,0.157,0.03,0.24,0.005 C0.33,-0.022,0.863,0.061,0.924,0.106"></path>
           </clipPath>
         </svg>
+        <svg>
+          <clipPath id="bottom-left" clipPathUnits="objectBoundingBox">
+            <path d="M0.517,0 C0.58,0.003,0.64,0.02,0.694,0.049 C0.747,0.079,0.791,0.12,0.821,0.169 C0.868,0.245,1,0.955,0.955,0.996 C0.842,1,0.7,0.869,0.453,0.806 C0.218,0.747,0.032,0.737,0.003,0.628 C-0.025,0.519,0.134,0.188,0.202,0.126 C0.285,0.05,0.398,0.005,0.517,0"></path>
+          </clipPath>
+        </svg>
+        <svg>
+          <clipPath id="top-right" clipPathUnits="objectBoundingBox">
+            <path d="M0.704,0.043 C0.64,0.017,0.448,-0.023,0.349,0.018 C0.245,0.062,0.117,0.317,0.072,0.418 C0.028,0.519,-0.027,0.818,0.016,0.897 C0.045,0.95,0.109,1,0.242,0.979 C0.411,0.898,0.976,0.458,0.999,0.381 C1,0.305,0.768,0.069,0.704,0.043"></path>
+          </clipPath>
+        </svg>
+        <svg>
+          <clipPath id="bottom-right" clipPathUnits="objectBoundingBox">
+            <path d="M0.996,0.23 C1,0.296,0.946,0.473,0.861,0.648 C0.776,0.823,0.71,0.984,0.613,0.999 C0.519,1,0.337,0.862,0.218,0.735 C0.131,0.643,0.048,0.549,0.025,0.502 C-0.013,0.426,-0.006,0.312,0.038,0.257 C0.085,0.197,0.175,0.204,0.417,0.139 C0.602,0.089,0.668,-0.008,0.76,0 C0.837,0.007,0.975,0.164,0.996,0.23"></path>
+          </clipPath>
+        </svg>
       </div>
 
       <div className="hero-container">
         <div className="hero-column">
           <div className="hero-shape-top-left-container hero-shape-container">
             <div className="hero-shape hero-shape-top-left">
-              <img src={dog} className="dog-image" />
+              <img src={topLeft} className="topLeft-image hero-shape-image" />
             </div>
           </div>
           <div className=" hero-shape-container  hero-shape-middle-left-container">
             <div className="hero-shape hero-shape-middle-left"></div>
           </div>
           <div className="hero-shape-container hero-shape-bottom-left-container">
-            <div className="hero-shape-bottom-left hero-shape"></div>
+            <div className="hero-shape-bottom-left hero-shape">
+              <img
+                src={bottomLeft}
+                className="bottomLeft-image hero-shape-image"
+              />
+            </div>
           </div>
         </div>
         <div className="hero-column"></div>
