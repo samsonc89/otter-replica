@@ -117,6 +117,9 @@ h1 {
   .container {
     width: 85%;
   }
+  .content-heading {
+    font-size: 2.5rem;
+  }
 }
 @media screen and (max-width: 767px) {
   h1 {
