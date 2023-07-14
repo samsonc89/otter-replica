@@ -3,6 +3,8 @@ import "./how.css";
 import tab3 from "../../assets/tab3.jpg";
 
 const How = () => {
+  const changeActiveTabBtn = () => {};
+
   return (
     <section className="main-section">
       <div className="how-wrapper">
@@ -18,9 +20,15 @@ const How = () => {
             </p>
           </div>
           <div className="how-tabs-wrapper">
-            <div className="how-tab">Sign up</div>
-            <div className="how-tab">Book a sitter</div>
-            <div className="how-tab">Get care & pay</div>
+            <a href="/" className="how-tab">
+              Sign up
+            </a>
+            <a href="/" className="how-tab">
+              Book a sitter
+            </a>
+            <a href="/" className="how-tab active-btn">
+              Get care & pay
+            </a>
           </div>
         </div>
         <div className="how-column how-right">
