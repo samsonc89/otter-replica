@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./how.css";
 
 const How = () => {
@@ -14,6 +15,11 @@ const How = () => {
               We'll match you with sitters based on your family's needs and
               their availability.
             </p>
+          </div>
+          <div className="how-tabs-wrapper">
+            <div className="how-tab">Sign up</div>
+            <div className="how-tab">Book a sitter</div>
+            <div className="how-tab">Get care & pay</div>
           </div>
         </div>
         <div className="how-column how-right">
