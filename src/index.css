@@ -88,6 +88,18 @@ h1 {
 .main-section {
   padding: 5rem 0;
 }
+
+.content-heading {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: #00373e;
+  color: #cafff2;
+}
 /* 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops
