@@ -173,6 +173,10 @@
   .hero-text {
     width: 80%;
   }
+  .hero-shape-top-left-container {
+    margin-left: -40%;
+    margin-top: -35%;
+  }
 
   .hero-shape-middle-left-container {
     width: 0;
