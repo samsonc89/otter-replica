@@ -1,6 +1,6 @@
 .how-wrapper {
   margin: 0 auto;
-  max-width: 75vw;
+  max-width: 75rem;
   display: flex;
   justify-content: space-between;
 }
@@ -79,4 +79,19 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .how-wrapper {
+    width: 85%;
+    flex-direction: column;
+  }
+  .how-column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
 }
