@@ -88,24 +88,21 @@ h1 {
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops
 1025px — 1200px: Desktops, large screens */
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 991px) {
   h1 {
     font-size: 4rem;
   }
-}
-@media screen and (max-width: 980px) {
   .container {
     width: 85%;
   }
+}
+@media screen and (max-width: 767px) {
   h1 {
     font-size: 3.8rem;
   }
-  .main-text {
-    font-size: 1.5rem;
-  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   h1 {
     font-size: 2rem;
   }
