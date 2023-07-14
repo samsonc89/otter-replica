@@ -146,12 +146,16 @@
   .hero-shape-bottom-left-container {
     margin-top: -5%;
     margin-left: -10%;
+    margin-bottom: -22%;
   }
   .hero-column-right {
     justify-content: space-between;
   }
 }
 @media screen and (max-width: 767px) {
+  .hero-container {
+    min-height: 60vh;
+  }
 }
 
 /* Add ipad adjustments next*/
