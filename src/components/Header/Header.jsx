@@ -2,6 +2,7 @@ import "./header.css";
 import topLeft from "../../assets/topleft.jpg";
 import bottomLeft from "../../assets/bottomLeft.jpg";
 import bottomRight from "../../assets/bottomRight.jpg";
+import SignupBtn from "../SignupBtn";
 
 const Header = () => {
   return (
@@ -78,6 +79,7 @@ const Header = () => {
           Sitter matches pet-parents who need care with trusted sitters in their
           community, on-demand.
         </p>
+        <SignupBtn />
       </div>
     </header>
   );

@@ -122,6 +122,9 @@
   width: 50%;
   position: absolute;
 }
+.hero-text > button {
+  background-color: #ccfff3;
+}
 
 .hero-p {
   margin: 10px 2vw;
@@ -175,7 +178,7 @@
     width: 0;
   }
   .hero-shape-top-right-container {
-    margin-left: 18%;
+    margin-left: 25%;
   }
   .hero-shape-bottom-right-container {
     margin-left: 5%;
