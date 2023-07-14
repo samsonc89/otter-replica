@@ -1,10 +1,13 @@
-import { Header, Navbar } from "./components";
+import { Header, How, Navbar } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
       <Header />
+      <main>
+        <How />
+      </main>
     </>
   );
 }
