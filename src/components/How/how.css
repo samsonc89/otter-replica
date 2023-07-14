@@ -1,0 +1,44 @@
+.how-wrapper {
+  margin: 0 auto;
+  max-width: 75vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-column {
+  width: 42%;
+}
+
+.how-text-wrapper,
+.how-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.how-text-wrapper > * {
+  text-align: start;
+}
+
+.how-tab-content-wrapper {
+  display: none;
+  background-color: hsl(0deg 0% 100%);
+  padding: 1.5rem;
+  height: 100%;
+  border-radius: 48px;
+}
+
+.how-image-wrapper {
+  border-radius: 32px;
+}
+
+.tab-image {
+  border-radius: 32px;
+
+  object-fit: cover;
+}
+.active-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
