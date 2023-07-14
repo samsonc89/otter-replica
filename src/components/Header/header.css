@@ -161,11 +161,27 @@
 /* Add ipad adjustments next*/
 
 @media screen and (max-width: 479px) {
+  .header-wrapper {
+    max-height: 550px;
+  }
   .hero-container {
     height: 75vh;
-    max-height: 550px;
   }
   .hero-text {
     width: 80%;
+  }
+
+  .hero-shape-middle-left-container {
+    width: 0;
+  }
+  .hero-shape-top-right-container {
+    margin-left: 18%;
+  }
+  .hero-shape-bottom-right-container {
+    margin-left: 5%;
+  }
+
+  .hero-column {
+    width: 40%;
   }
 }
