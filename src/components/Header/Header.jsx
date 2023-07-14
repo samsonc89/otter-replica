@@ -1,6 +1,7 @@
 import "./header.css";
-import topLeft from "../../assets/dog1.jpg";
+import topLeft from "../../assets/topleft.jpg";
 import bottomLeft from "../../assets/bottomLeft.jpg";
+import bottomRight from "../../assets/bottomRight.jpg";
 
 const Header = () => {
   return (
@@ -56,7 +57,20 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="hero-column"></div>
+        <div className="hero-column hero-column-right">
+          <div className=" hero-shape-container  hero-shape-top-right-container">
+            <div className="hero-shape hero-shape-top-right"></div>
+          </div>
+          <div className=" hero-shape-container  hero-shape-bottom-right-container">
+            <div className="hero-shape hero-shape-bottom-right">
+              {" "}
+              <img
+                src={bottomRight}
+                className="bottomRight-image hero-shape-image"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div className="hero-text">
         <h1 className="light-text">Reliable petcare on demand</h1>
