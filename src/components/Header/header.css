@@ -26,28 +26,17 @@
   display: flex;
   flex-direction: column;
 }
+
+.hero-shape-container {
+  width: 110%;
+  padding-top: 110%;
+  position: relative;
+}
+
 .hero-shape {
   width: 100%;
   height: 100%;
-  aspect-ratio: 1;
-}
 
-.hero-shape-top-left-container {
-  width: 100%;
-  height: 100%;
-  margin-left: -10%;
-  margin-top: -10%;
-  position: relative;
-}
-.test-svg {
-  display: block;
-  width: 0;
-}
-.hero-shape-top-left {
-  width: 110%;
-  background-color: green;
-  -webkit-clip-path: url(#top-left);
-  clip-path: url(#top-left) border-box;
   position: absolute;
   bottom: 0%;
   top: 0%;
@@ -55,7 +44,41 @@
   right: 0%;
 }
 
-.dog-image {
+.hero-shape-top-left-container {
+  margin-left: -30%;
+  margin-top: -25%;
+  z-index: 2;
+}
+
+.hero-shape-top-left {
+  width: 110%;
+  background-color: green;
+  -webkit-clip-path: url(#top-left);
+  clip-path: url(#top-left) border-box;
+}
+
+.hero-shape-middle-left-container {
+  margin-top: -6%;
+  margin-left: -30%;
+}
+
+.hero-shape-middle-left {
+  background-color: green;
+  -webkit-clip-path: url(#middle-left);
+  clip-path: url(#middle-left);
+}
+.hero-shape-bottom-left-container {
+  margin-top: -35%;
+  margin-left: 40%;
+}
+
+.hero-shape-bottom-left {
+  -webkit-clip-path: url(#bottom-left);
+  clip-path: url(#bottom-left);
+  position: absolute;
+}
+
+.hero-shape-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
