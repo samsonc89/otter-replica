@@ -57,18 +57,19 @@ nav ul {
   font-weight: 500;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 991px) {
   nav {
     margin: 0;
   }
-}
-@media screen and (max-width: 980px) {
   .nav-logo-wrapper {
     justify-content: start;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
   nav {
     margin: 2vh;
   }
