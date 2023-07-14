@@ -5,6 +5,10 @@
   position: relative;
 }
 
+.clipPaths-container {
+  width: 0;
+}
+
 .hero-container {
   width: 100%;
   height: 83vh;
