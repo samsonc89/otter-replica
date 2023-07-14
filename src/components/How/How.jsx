@@ -9,19 +9,19 @@ const How = () => {
         <div className="how-column how-left">
           <div className="how-text-wrapper">
             <p className="tiny">how it works</p>
-            <h2 className="how-heading">
+            <h2 className="content-heading">
               We help families find reliable, flexible kidcare
             </h2>
             <p className="main-text">
-              We&apos;ll match you with sitters based on your family&apos;s
-              needs and their availability.
+              We'll match you with sitters based on your family's needs and
+              their availability.
             </p>
           </div>
-          {/* <div className="how-tabs-wrapper"> */}
-          <div className="how-tab">Sign up</div>
-          <div className="how-tab">Book a sitter</div>
-          <div className="how-tab">Get care & pay</div>
-          {/* </div> */}
+          <div className="how-tabs-wrapper">
+            <div className="how-tab">Sign up</div>
+            <div className="how-tab">Book a sitter</div>
+            <div className="how-tab">Get care & pay</div>
+          </div>
         </div>
         <div className="how-column how-right">
           <div className="how-tab-content-wrapper active-tab">
