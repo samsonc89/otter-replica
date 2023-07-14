@@ -25,6 +25,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-shape-container {
@@ -87,9 +88,6 @@
   display: flex;
 }
 
-.hero-shape-top-right-container {
-}
-
 .hero-shape-top-right {
   background-color: hsl(166deg 99% 90%);
   -webkit-clip-path: url(#top-right);
@@ -140,6 +138,21 @@
   .hero-container {
     height: 63vh;
     max-height: 710px;
+  }
+  .hero-column {
+    width: 35%;
+  }
+  .hero-shape-middle-left-container {
+    width: 100%;
+    padding-top: 100%;
+    margin-top: 0%;
+  }
+  .hero-shape-bottom-left-container {
+    margin-top: -15%;
+    margin-left: -10%;
+  }
+  .hero-column-right {
+    justify-content: space-between;
   }
 }
 
