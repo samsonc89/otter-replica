@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./how.css";
 import tabOneImg from "../../assets/tab1.jpg";
-import TabCard from "./HowTabCard";
+import TabCard from "./TabCard";
 
 const How = () => {
   const tab1 = {
