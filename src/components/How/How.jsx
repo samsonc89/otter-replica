@@ -24,7 +24,7 @@ const How = () => {
             </p>
           </div>
           <div className="how-tabs-wrapper">
-            <div className="tab-item active-btn expanded">
+            <div className="tab-item active-tab expanded">
               <a href="/" className="how-tab">
                 Sign up
               </a>

@@ -46,7 +46,7 @@
   line-height: 1;
   font-weight: 500;
 }
-.active-btn {
+.active-tab {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -58,13 +58,13 @@
   font-weight: 500;
 }
 
-.active-btn a {
+.active-tab a {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* .active-btn::before {
+/* .active-tab::before {
   content: " ";
   display: inline-block;
   width: 12px;
@@ -74,7 +74,7 @@
   border-radius: 50%;
   background-color: hsl(11deg 92% 80%);
 } */
-.active-btn > a::after {
+.active-tab > a::after {
   content: " ";
   display: inline-block;
   width: 12px;
