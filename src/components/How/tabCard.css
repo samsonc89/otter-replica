@@ -1,0 +1,21 @@
+.how-tab-content-wrapper {
+  display: none;
+  background-color: hsl(0deg 0% 100%);
+  padding: 1.5rem;
+  height: 100%;
+  border-radius: 48px;
+}
+.active-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.how-image-wrapper {
+  border-radius: 32px;
+}
+
+.tab-image {
+  border-radius: 32px;
+
+  object-fit: cover;
+}

@@ -34,24 +34,6 @@
   padding: 12px 20px;
 }
 
-.how-tab-content-wrapper {
-  display: none;
-  background-color: hsl(0deg 0% 100%);
-  padding: 1.5rem;
-  height: 100%;
-  border-radius: 48px;
-}
-
-.how-image-wrapper {
-  border-radius: 32px;
-}
-
-.tab-image {
-  border-radius: 32px;
-
-  object-fit: cover;
-}
-
 .expanded {
   display: flex;
   flex-direction: column;
@@ -101,12 +83,6 @@
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background-color: hsl(11deg 92% 80%);
-}
-
-.active-tab {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
 }
 
 @media screen and (max-width: 991px) {
