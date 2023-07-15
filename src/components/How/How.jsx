@@ -38,32 +38,26 @@ const How = () => {
               <a href="/" className="how-tab">
                 Sign up
               </a>
-              <TabCard props={tab1} />
+              <TabCard extraClass="narrow-content" props={tab1} />
             </div>
             <div className="tab-item">
               <a href="/" className="how-tab">
                 Book a sitter
               </a>
-              <TabCard props={tab2} />
+              <TabCard extraClass="narrow-content" props={tab2} />
             </div>
             <div className="tab-item">
               <a href="/" className="how-tab">
                 Get care & pay
               </a>
-              <TabCard props={tab3} />
+              <TabCard extraClass="narrow-content" props={tab3} />
             </div>
           </div>
         </div>
         <div className="how-column how-right">
-          <TabCard props={tab1} />
-          <div className="how-tab-content-wrapper">
-            <div className="how-image-wrapper"></div>
-            <div className="how-text-wrapper"></div>
-          </div>
-          <div className="how-tab-content-wrapper">
-            <div className="how-image-wrapper"></div>
-            <div className="how-text-wrapper"></div>
-          </div>
+          <TabCard extraClass="active-content" props={tab1} />
+          <TabCard props={tab2} />
+          <TabCard props={tab3} />
         </div>
       </div>
     </section>
