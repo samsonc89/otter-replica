@@ -24,18 +24,24 @@ const How = () => {
             </p>
           </div>
           <div className="how-tabs-wrapper">
-            <div className="tab-item active-tab expanded">
+            <div className="tab-item">
               <a href="/" className="how-tab">
                 Sign up
               </a>
               <TabCard props={tab1} />
             </div>
-            <a href="/" className="how-tab">
-              Book a sitter
-            </a>
-            <a href="/" className="how-tab">
-              Get care & pay
-            </a>
+            <div className="tab-item">
+              <a href="/" className="how-tab">
+                Book a sitter
+              </a>
+              <TabCard props={tab1} />
+            </div>
+            <div className="tab-item">
+              <a href="/" className="how-tab">
+                Get care & pay
+              </a>
+              <TabCard props={tab1} />
+            </div>
           </div>
         </div>
         <div className="how-column how-right">
