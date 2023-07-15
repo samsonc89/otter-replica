@@ -1,14 +1,12 @@
-const TabCard = () => {
+/* eslint-disable react/prop-types */
+const TabCard = ({ props }) => {
   return (
     <div className="how-tab-content-wrapper active-tab">
       <div className="how--tab-image-wrapper">
-        <img src={tab3} className="tab-image" />
+        <img src={props.img} className="tab-image" />
       </div>
       <div className="how-tab-text-wrapper">
-        <p>
-          We like to keep it simple. Tell us your name, contact information, and
-          a little bit about you and your kids. Just like that, you're all set.
-        </p>
+        <p>{props.text}</p>
       </div>
     </div>
   );

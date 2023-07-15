@@ -1,9 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./how.css";
-import tab3 from "../../assets/tab3.jpg";
+import tabOneImg from "../../assets/tab1.jpg";
+import TabCard from "./HowTabCard";
 
 const How = () => {
-  const changeActiveTabBtn = () => {};
+  const tab1 = {
+    img: tabOneImg,
+    text: "We like to keep it simple. Tell us your name, contact information, and a little bit about you and your kids. Just like that, you're all set.",
+  };
 
   return (
     <section className="main-section">
@@ -20,30 +24,22 @@ const How = () => {
             </p>
           </div>
           <div className="how-tabs-wrapper">
-            <a href="/" className="how-tab">
-              Sign up
-            </a>
+            <div className="tab-item active-btn expanded">
+              <a href="/" className="how-tab">
+                Sign up
+              </a>
+              <TabCard props={tab1} />
+            </div>
             <a href="/" className="how-tab">
               Book a sitter
             </a>
-            <a href="/" className="how-tab active-btn">
+            <a href="/" className="how-tab">
               Get care & pay
             </a>
           </div>
         </div>
         <div className="how-column how-right">
-          <div className="how-tab-content-wrapper active-tab">
-            <div className="how--tab-image-wrapper">
-              <img src={tab3} className="tab-image" />
-            </div>
-            <div className="how-tab-text-wrapper">
-              <p>
-                We like to keep it simple. Tell us your name, contact
-                information, and a little bit about you and your kids. Just like
-                that, you're all set.
-              </p>
-            </div>
-          </div>
+          <TabCard props={tab1} />
           <div className="how-tab-content-wrapper">
             <div className="how-image-wrapper"></div>
             <div className="how-text-wrapper"></div>
