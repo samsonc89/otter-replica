@@ -142,4 +142,7 @@ h1 {
     font-size: 1.125rem;
     margin-bottom: 1em;
   }
+  .content-heading {
+    font-size: 1.9rem;
+  }
 }

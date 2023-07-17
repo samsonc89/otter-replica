@@ -115,4 +115,11 @@
 }
 
 @media screen and (max-width: 479px) {
+  .how-wrapper {
+    width: 90%;
+  }
+  .how-text-wrapper {
+    width: 100%;
+    gap: 1em;
+  }
 }
