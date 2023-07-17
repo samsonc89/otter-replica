@@ -156,7 +156,11 @@
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .header-wrapper {
+    max-height: 700px;
+    padding-bottom: 3rem;
+  }
   .hero-container {
     min-height: 60vh;
   }
