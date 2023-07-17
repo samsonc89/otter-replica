@@ -71,8 +71,8 @@ nav ul {
 
 @media screen and (max-width: 479px) {
   nav {
-    margin-top: 1.75rem;
-    margin-bottom: 2.75rem;
+    margin: 1.75rem 0.25rem 2.75rem;
+    /* margin-bottom: 2.75rem; */
   }
   .section-container {
     max-width: 100%;
