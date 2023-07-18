@@ -44,9 +44,14 @@ const How = () => {
           <div className="how-tabs-wrapper">
             {tabData.map((tab, i) => {
               return (
-                // eslint-disable-next-line react/jsx-key
                 <div key={i} className="tab-item">
-                  <div className="how-tab">{tab.title}</div>
+                  <div
+                    className={
+                      selected === i ? "how-tab active-tab" : "how-tab"
+                    }
+                  >
+                    {tab.title}
+                  </div>
                   {selected === i ? (
                     <TabCard extraClass={"narrow-content"} props={tab} />
                   ) : (
