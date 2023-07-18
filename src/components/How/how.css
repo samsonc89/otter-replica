@@ -58,7 +58,7 @@
   font-weight: 500;
 }
 
-/* .active-tab::before {
+.active-tab::before {
   content: " ";
   display: inline-block;
   width: 12px;
@@ -67,7 +67,7 @@
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background-color: hsl(11deg 92% 80%);
-} */
+}
 
 @media screen and (max-width: 991px) {
   .how-wrapper {
@@ -105,13 +105,22 @@
     background-color: hsl(11deg 92% 80%);
   }
   .tab-item {
+    width: 100%;
     background-color: hsl(0deg 0% 100%);
     border-radius: 25px;
     padding: 0.875em 1.15em;
     line-height: 1;
   }
+  .active-tab::before {
+    content: " ";
+    display: none;
+  }
 }
+
 @media screen and (max-width: 768px) {
+  .how-text-wrapper {
+    width: 85%;
+  }
   .tab-item {
     width: 100%;
   }
