@@ -135,9 +135,13 @@
   .hero-p {
     margin: 10px 2.5vw;
   }
+  .header-wrapper {
+    max-height: 750px;
+    padding-bottom: 0;
+  }
   .hero-container {
     min-height: 0;
-    max-height: 710px;
+    max-height: 100%;
   }
   .hero-column {
     width: 35%;
@@ -158,8 +162,7 @@
 }
 @media screen and (max-width: 768px) {
   .header-wrapper {
-    max-height: 700px;
-    padding-bottom: 3rem;
+    max-height: 670px;
   }
   .hero-container {
     min-height: 60vh;
