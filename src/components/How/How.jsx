@@ -44,7 +44,13 @@ const How = () => {
           <div className="how-tabs-wrapper">
             {tabData.map((tab, i) => {
               return (
-                <div key={i} className="tab-item">
+                <div
+                  key={i}
+                  onClick={() => {
+                    setSelected(i);
+                  }}
+                  className="tab-item"
+                >
                   <div
                     className={
                       selected === i ? "how-tab active-tab" : "how-tab"
