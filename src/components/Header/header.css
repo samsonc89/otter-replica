@@ -163,6 +163,7 @@
   }
   .hero-container {
     min-height: 60vh;
+    border-radius: 55px;
   }
 }
 
@@ -175,6 +176,7 @@
   }
   .hero-container {
     height: 70vh;
+    border-radius: 35px;
   }
   .hero-text {
     width: 80%;
