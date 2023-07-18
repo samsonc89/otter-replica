@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import "./tabCard.css";
 
-const TabCard = ({ props, extraClass }) => {
+const TabCard = ({ props, extraClass = "" }) => {
   return (
     <div className={`how-tab-content-wrapper ${extraClass}`}>
       <div className="how-tab-image-wrapper">
