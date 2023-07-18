@@ -1,14 +1,13 @@
 .how-tab-content-wrapper {
-  display: none;
+  display: flex;
+  flex-direction: column;
   background-color: hsl(0deg 0% 100%);
   padding: 1.5rem;
   height: 100%;
   border-radius: 48px;
 }
-.active-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.narrow-content {
+  display: none;
 }
 .how-tab-image-wrapper {
   border-radius: 32px;
