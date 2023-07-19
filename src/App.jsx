@@ -1,4 +1,5 @@
-import { Header, How, Navbar } from "./components";
+import { Navbar } from "./components";
+import { Header, How } from "./containers";
 
 function App() {
   return (
