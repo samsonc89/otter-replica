@@ -1,6 +1,6 @@
 .how-wrapper {
   margin: 0 auto;
-  max-width: 75rem;
+  max-width: 70rem;
   display: flex;
   justify-content: space-between;
 }
@@ -19,7 +19,7 @@
 }
 
 .how-text-wrapper {
-  gap: 2em;
+  gap: 1em;
 }
 .how-text-wrapper > * {
   text-align: start;
@@ -27,7 +27,7 @@
 
 .how-tabs-wrapper {
   margin-top: 1.5em;
-  gap: 0.7em;
+  gap: 0.5em;
   font-weight: 500;
 }
 
@@ -132,9 +132,13 @@
   .how-wrapper {
     width: 90%;
   }
+
   .how-text-wrapper {
     width: 100%;
     gap: 1em;
+  }
+  .how-tabs-wrapper {
+    margin-top: 0.5em;
   }
   .tab-item {
     padding: 0.5em 0.5em;
