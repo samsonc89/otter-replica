@@ -1,16 +1,23 @@
 .testimonials-wrapper {
+  margin: 0 auto;
   width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
 .testimonials-column-left {
-  width: 42%;
+  flex: 42%;
+  max-width: 42%;
 }
 .testimonials-column-right {
-  width: 50%;
+  flex: 50%;
+  max-width: 50%;
 }
 
 .testimonials-carousel-wrapper {
   display: flex;
+  gap: 25px;
+
+  width: 100%;
+  height: 100%;
 }
