@@ -1,4 +1,5 @@
 import { ContentHeading } from "../../components";
+import TestimonialCard from "../../components/TestimonialCard/TestimonialCard";
 import "./testimonials.css";
 
 const Testimonials = () => {
@@ -69,7 +70,11 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="testimonials-column-right">
-          <div className="testimonials-carousel-wrapper"></div>
+          <div className="testimonials-carousel-wrapper">
+            {testimonialsData.map((item, i) => {
+              return <TestimonialCard key={i} props={item} />;
+            })}
+          </div>
         </div>
       </div>
     </section>
