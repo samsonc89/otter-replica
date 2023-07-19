@@ -14,6 +14,7 @@ body {
   --main-bg-color: hsl(20deg 17% 97%);
   --main-text-color: hsl(187deg 93% 13%);
   --light-text-color: hsl(0deg 0% 100%);
+  --light-asset-bg-color: hsl(0deg 0% 100%);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
@@ -68,7 +69,7 @@ button {
 }
 
 .btn {
-  background-color: hsl(0deg 0% 100%);
+  background-color: var(--light-asset-bg-color);
   border: none;
 }
 

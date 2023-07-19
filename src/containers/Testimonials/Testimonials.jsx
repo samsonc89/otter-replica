@@ -15,8 +15,14 @@ const Testimonials = () => {
             classes={"testimonials-text-wrapper"}
             props={sectionCopy}
           />
+          <div className="testimonials-btn-wrapper">
+            <button> {"<-"} </button>
+            <button>{"->"} </button>
+          </div>
         </div>
-        <div className="testimonials-column-right"></div>
+        <div className="testimonials-column-right">
+          <div className="testimonials-carousel-wrapper"></div>
+        </div>
       </div>
     </section>
   );
