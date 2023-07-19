@@ -1,9 +1,9 @@
 .testimonial-card {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.testimonial-label-wrapper {
-  display: flex;
+  width: 400px;
+  height: 100%;
+  background-color: rgb(28, 240, 173);
 }
