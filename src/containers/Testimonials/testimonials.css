@@ -5,6 +5,10 @@
   justify-content: space-between;
 }
 
+.testimonials-wrapper * {
+  text-align: start;
+}
+
 .testimonials-column-left {
   flex: 42%;
   max-width: 42%;
