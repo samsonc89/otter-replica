@@ -1,6 +1,8 @@
 import { ContentHeading } from "../../components";
 import TestimonialCard from "../../components/TestimonialCard/TestimonialCard";
 import "./testimonials.css";
+import leftarrow from "../../assets/leftarrow.svg";
+import rightarrow from "../../assets/rightarrow.svg";
 
 const Testimonials = () => {
   const sectionCopy = {
@@ -65,8 +67,12 @@ const Testimonials = () => {
             props={sectionCopy}
           />
           <div className="testimonials-btn-wrapper">
-            <button className="btn carousel-btn"> {"<-"} </button>
-            <button className="btn carousel-btn">{"->"} </button>
+            <button className="btn carousel-btn">
+              <img src={leftarrow} />
+            </button>
+            <button className="btn carousel-btn">
+              <img src={rightarrow} />{" "}
+            </button>
           </div>
         </div>
         <div className="testimonials-column-right">
