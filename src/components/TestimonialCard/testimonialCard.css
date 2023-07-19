@@ -6,4 +6,15 @@
   width: 400px;
   height: 100%;
   background-color: rgb(28, 240, 173);
+  padding: 1.7rem;
+  border-radius: 30px;
+}
+
+.testimonial-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.testimonial-label {
+  font-weight: 700;
 }
