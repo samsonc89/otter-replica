@@ -70,4 +70,7 @@
     border-radius: 15px;
     padding-top: 100%;
   }
+  .narrow-content {
+    gap: 1rem;
+  }
 }
