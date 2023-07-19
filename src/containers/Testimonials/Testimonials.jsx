@@ -6,7 +6,7 @@ const Testimonials = () => {
   const sectionCopy = {
     smallTitle: "Testimonials",
     title: "What our village is saying",
-    text: "Sitters that step in when things come up.",
+    text: "Sitters who step in when things come up.",
   };
 
   const testimonialsData = [
