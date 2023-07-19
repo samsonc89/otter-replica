@@ -70,7 +70,13 @@ const How = () => {
         </div>
         <div className="how-column how-right">
           {tabData.map((tab, i) => {
-            return selected === i ? <TabCard key={i} props={tab} /> : "";
+            return (
+              <TabCard
+                key={i}
+                extraClass={selected === i ? "active-content" : ""}
+                props={tab}
+              />
+            );
           })}
         </div>
       </div>

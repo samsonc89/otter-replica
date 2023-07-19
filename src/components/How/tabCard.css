@@ -1,11 +1,21 @@
 .how-tab-content-wrapper {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: hsl(0deg 0% 100%);
   padding: 1.5rem;
   height: 100%;
   border-radius: 48px;
+  gap: 1.2rem;
+  /* position: absolute; */
+  top: 100%;
 }
+
+.active-content {
+  display: flex;
+  /* top: 0; */
+  animation: slide-up 0.4s ease;
+}
+
 .narrow-content {
   display: none;
 }
@@ -28,6 +38,15 @@
   right: 0%;
 }
 
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @media screen and (max-width: 991px) {
   .how-tab-content-wrapper {
     padding: 1rem;
@@ -38,6 +57,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    animation: slide-up 0.4s ease;
   }
 }
 

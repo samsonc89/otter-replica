@@ -167,6 +167,7 @@
   .hero-container {
     min-height: 60vh;
     border-radius: 55px;
+    max-height: 100%;
   }
 }
 
@@ -174,11 +175,11 @@
 
 @media screen and (max-width: 479px) {
   .header-wrapper {
-    max-height: 550px;
+    max-height: 500px;
     width: 90%;
   }
   .hero-container {
-    height: 70vh;
+    height: 75vh;
     border-radius: 35px;
   }
   .hero-text {
