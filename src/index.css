@@ -43,6 +43,7 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+  overflow: hidden;
 }
 .container {
   width: 90%;
