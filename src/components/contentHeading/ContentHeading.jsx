@@ -4,7 +4,7 @@ import "./contentHeading.css";
 const ContentHeading = ({ props, classes }) => {
   return (
     <>
-      <div className={classes}>
+      <div className={`${classes} content-heading-wrapper `}>
         <p className="small-heading">{props.smallTitle}</p>
         <h2 className="content-heading">{props.title}</h2>
         <p className="main-text">{props.text}</p>

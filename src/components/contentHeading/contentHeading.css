@@ -1,3 +1,9 @@
+.content-heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
 .small-heading {
   font-size: 0.87rem;
   font-weight: 500;
