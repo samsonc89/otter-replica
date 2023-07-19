@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
+import "./contentHeading.css";
 const ContentHeading = ({ props, classes }) => {
   return (
     <>
