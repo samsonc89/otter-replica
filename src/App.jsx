@@ -1,5 +1,5 @@
 import { Navbar } from "./components";
-import { Header, How } from "./containers";
+import { Header, How, Testimonials } from "./containers";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Header />
       <main>
         <How />
+        <Testimonials />
       </main>
     </>
   );
