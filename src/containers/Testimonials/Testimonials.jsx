@@ -16,8 +16,8 @@ const Testimonials = () => {
             props={sectionCopy}
           />
           <div className="testimonials-btn-wrapper">
-            <button> {"<-"} </button>
-            <button>{"->"} </button>
+            <button className="btn carousel-btn"> {"<-"} </button>
+            <button className="btn carousel-btn">{"->"} </button>
           </div>
         </div>
         <div className="testimonials-column-right">
