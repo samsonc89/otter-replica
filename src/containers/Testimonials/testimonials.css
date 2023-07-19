@@ -10,12 +10,12 @@
 }
 
 .testimonials-column-left {
-  flex: 42%;
-  max-width: 42%;
+  flex: 35%;
+  max-width: 35%;
 }
 
 .testimonials-btn-wrapper {
-  margin-top: 2em;
+  margin-top: 3em;
   display: flex;
   gap: 20px;
 }
