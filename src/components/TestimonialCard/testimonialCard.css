@@ -5,9 +5,10 @@
   justify-content: space-between;
   width: 400px;
   height: 100%;
-  background-color: rgb(28, 240, 173);
+  background-color: #00373e;
   padding: 1.7rem;
   border-radius: 30px;
+  color: #fff;
 }
 
 .testimonial-text {
@@ -17,4 +18,20 @@
 
 .testimonial-label {
   font-weight: 700;
+}
+
+.testimonial-card:nth-child(5n + 2) {
+  background-color: #94954c;
+}
+.testimonial-card:nth-child(5n + 3) {
+  background-color: #fbad9c;
+  color: #00373e;
+}
+.testimonial-card:nth-child(5n + 4) {
+  background-color: #ac9e88;
+  color: #00373e;
+}
+.testimonial-card:nth-child(5n + 5) {
+  background-color: #fbd3ba;
+  color: #00373e;
 }
