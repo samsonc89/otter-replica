@@ -12,6 +12,7 @@
 body {
   font-family: "Rubik", sans-serif;
   --main-bg-color: hsl(20deg 17% 97%);
+  --accent-color: hsl(11deg 92% 80%);
   --main-text-color: hsl(187deg 93% 13%);
   --light-text-color: hsl(0deg 0% 100%);
   --light-asset-bg-color: hsl(0deg 0% 100%);
