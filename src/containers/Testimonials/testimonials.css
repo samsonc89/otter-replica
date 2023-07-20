@@ -41,7 +41,26 @@
   overflow: scroll;
 }
 
-.testimonials-carousel-wrapper:nth-child(5n + 2) {
-  background-color: #fbad9c;
-  color: #00373e;
+@media screen and (max-width: 991px) {
+  .testimonials-wrapper {
+    flex-direction: column;
+  }
+  .testimonials-column-left {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 3em;
+    align-items: flex-end;
+  }
+  .testimonials-column-right {
+    width: 100%;
+    flex: 1;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
 }
