@@ -1,6 +1,6 @@
 const NavLinks = () => {
   return (
-    <ul>
+    <ul className="nav-links">
       <li>
         <a href="#parents">Parents</a>
       </li>
