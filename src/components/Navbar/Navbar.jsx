@@ -15,6 +15,11 @@ const Navbar = () => {
         <NavLinks />
         <UserAccess />
       </div>
+      <div className="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   );
 };
