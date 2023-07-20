@@ -2,12 +2,17 @@ import "./navbar.css";
 import logo from "../../assets/logo.png";
 import NavLinks from "./NavLinks";
 import UserAccess from "./UserAccess";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 const Navbar = () => {
   const [isShowing, setIsShowing] = useState(false);
+  let collapsedNavRef = useRef();
 
-  let showingClass = isShowing ? "showing" : "";
+  const handleTransitionEnd = () => {
+    collapsedNavRef.current.classList.remove("closing");
+  };
+
+  let showingClass = isShowing ? "showing" : "closing";
 
   return (
     <nav className="nav-wrapper container">
@@ -16,7 +21,11 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </a>
       </div>
-      <div className={`nav-items ${showingClass}`}>
+      <div
+        onTransitionEnd={handleTransitionEnd}
+        ref={collapsedNavRef}
+        className={`nav-items ${showingClass}`}
+      >
         <NavLinks />
         <UserAccess />
       </div>
