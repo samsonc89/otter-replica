@@ -30,7 +30,8 @@ nav ul {
   gap: 1em;
 }
 
-.nav-items {
+.nav-items,
+.nav-overlay {
   width: 100%;
 
   display: flex;
@@ -58,22 +59,7 @@ nav ul {
 }
 
 .toggle-nav-btn {
-  width: 3rem;
-  height: 3rem;
-  background-color: var(--main-text-color);
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  position: absolute;
-  right: 0;
-}
-.toggle-nav-btn span {
-  width: 50%;
-  height: 5%;
-  background-color: aliceblue;
+  display: none;
 }
 
 @keyframes slide-down {
@@ -92,6 +78,17 @@ nav ul {
   .nav-logo-wrapper {
     justify-content: start;
   }
+  .nav-overlay {
+    background-color: hsla(20, 20%, 97%, 0.885);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 110%;
+    left: 0;
+    z-index: 3;
+    opacity: 0;
+    display: none;
+  }
 
   .nav-items,
   .nav-links {
@@ -104,7 +101,7 @@ nav ul {
     display: none;
     top: 0%;
     padding: 2rem;
-    margin-top: 5rem;
+
     align-items: start;
     border-radius: 25px;
     z-index: 10;
@@ -120,8 +117,10 @@ nav ul {
     /* transition: opacity 0.6s ease; */
   }
   .showing {
+    opacity: 1;
     display: flex;
-    animation: slide-up 0.4s ease;
+    animation: slide-up 0.5s ease;
+    transition: opacity 0.1s ease;
   }
 
   .nav-links {
@@ -141,6 +140,24 @@ nav ul {
     padding-top: 1rem;
     width: 100%;
     border-top: 1px solid black;
+  }
+  .toggle-nav-btn {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--main-text-color);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: absolute;
+    right: 0;
+  }
+  .toggle-nav-btn span {
+    width: 50%;
+    height: 5%;
+    background-color: aliceblue;
   }
 }
 

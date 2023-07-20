@@ -21,13 +21,14 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </a>
       </div>
-      <div
-        onTransitionEnd={handleTransitionEnd}
-        ref={collapsedNavRef}
-        className={`nav-items ${showingClass}`}
-      >
-        <NavLinks />
-        <UserAccess />
+      <div ref={collapsedNavRef} className={`nav-overlay ${showingClass}`}>
+        <div
+          onTransitionEnd={handleTransitionEnd}
+          className={`nav-items ${showingClass}`}
+        >
+          <NavLinks />
+          <UserAccess />
+        </div>
       </div>
       <div className="toggle-nav-btn" onClick={() => setIsShowing(!isShowing)}>
         <span></span>
