@@ -1,4 +1,4 @@
-.feature-section {
+.featured-section {
   width: 90%;
 
   justify-content: center;
@@ -6,13 +6,17 @@
   margin: 0 auto;
 }
 
-.features {
+.featured-content {
   width: 100%;
   background-color: var(--accent-color);
+  padding: 0 8%;
   display: flex;
   align-items: center;
   height: 15vh;
   border-radius: 35px;
+}
+.companies-wrapper {
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
