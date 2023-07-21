@@ -1,8 +1,8 @@
 import { ContentHeading } from "../../components";
 import TestimonialCard from "../../components/TestimonialCard/TestimonialCard";
 import "./testimonials.css";
-import leftarrow from "../../assets/leftarrow.svg";
-import rightarrow from "../../assets/rightarrow.svg";
+// import leftarrow from "../../assets/leftarrow.svg";
+// import rightarrow from "../../assets/rightarrow.svg";
 
 const Testimonials = () => {
   const sectionCopy = {
