@@ -19,7 +19,7 @@ const Testimonials = () => {
     },
     {
       name: "Becca O",
-      text: "Otter has been a great way for me to make money on the side while still being incredibly manageable with my busy schedule.",
+      text: "Sitter has been a great way for me to make money on the side while still being incredibly manageable with my busy schedule.",
       type: "Sitter",
     },
     {
@@ -34,22 +34,22 @@ const Testimonials = () => {
     },
     {
       name: "Emily R",
-      text: "Otter makes petsitting easy, stress-free, and fun!",
+      text: "Sitter makes petsitting easy, stress-free, and fun!",
       type: "Sitter",
     },
     {
       name: "Courtney M",
-      text: "Both Stephanie and Cassie have been amazing with the girls!! We're so happy with Otter, thank you for all of your great support.",
+      text: "Both Stephanie and Cassie have been amazing with the girls!! We're so happy with Sitter, thank you for all of your great support.",
       type: "Parent",
     },
     {
       name: "Kelly E",
-      text: "As a solo parent with no family around, it's been a relief to know I can count on Otter for affordable and quality care in my community.",
+      text: "As a solo parent with no family around, it's been a relief to know I can count on Sitter for affordable and quality care in my community.",
       type: "Parent",
     },
     {
       name: "Cassie D",
-      text: "All the families I've worked with so far have really appreciated Otter and the service we are providing.",
+      text: "All the families I've worked with so far have really appreciated Sitter and the service we are providing.",
       type: "Sitter",
     },
     {
