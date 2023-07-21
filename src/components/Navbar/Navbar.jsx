@@ -7,12 +7,11 @@ import { useRef, useState } from "react";
 const Navbar = () => {
   const [isShowing, setIsShowing] = useState(false);
   let collapsedNavRef = useRef();
+  let navItemsRef = useRef();
 
-  const handleTransitionEnd = () => {
-    collapsedNavRef.current.classList.remove("closing");
-  };
+  let showingClass = isShowing ? "showing" : "";
 
-  let showingClass = isShowing ? "showing" : "closing";
+  let showingOverlay = isShowing ? "showing-overlay" : "closing";
 
   return (
     <nav className="nav-wrapper container">
@@ -21,11 +20,8 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </a>
       </div>
-      <div ref={collapsedNavRef} className={`nav-overlay ${showingClass}`}>
-        <div
-          onTransitionEnd={handleTransitionEnd}
-          className={`nav-items ${showingClass}`}
-        >
+      <div ref={collapsedNavRef} className={`nav-overlay ${showingOverlay}`}>
+        <div ref={navItemsRef} className={`nav-items ${showingClass}`}>
           <NavLinks />
           <UserAccess />
         </div>
