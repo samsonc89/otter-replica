@@ -1,4 +1,4 @@
-import { Navbar } from "./components";
+import { Feature, Navbar } from "./components";
 import { Header, How, Testimonials } from "./containers";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <main>
         <How />
         <Testimonials />
+        <Feature />
       </main>
     </>
   );
