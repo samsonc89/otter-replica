@@ -41,16 +41,18 @@ const Why = () => {
 
   return (
     <section className="main-section why-section">
-      <ContentHeading classes={"why-text-wrapper"} props={sectionCopy} />
-      <div className="why-row1">
-        <WhyCard props={cards[0]} />
-        <WhyCard props={cards[1]} />
-      </div>
-      <div className="why-row2">
-        <WhyCard props={cards[2]} extraClasses={"why-row2-card"} />
-        <div className="why-row2-images">
-          <div className="why-row2-image1"></div>
-          <div className="why-row2-image2"></div>
+      <ContentHeading classes={"why-heading-wrapper"} props={sectionCopy} />
+      <div className="why-content-wrapper">
+        <div className="why-row1">
+          <WhyCard props={cards[0]} />
+          <WhyCard props={cards[1]} />
+        </div>
+        <div className="why-row2">
+          <WhyCard props={cards[2]} extraClasses={"why-row2-card"} />
+          <div className="why-row2-images">
+            <div className="why-row2-image1"></div>
+            <div className="why-row2-image2"></div>
+          </div>
         </div>
       </div>
     </section>
