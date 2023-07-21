@@ -20,7 +20,11 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </a>
       </div>
-      <div ref={collapsedNavRef} className={`nav-overlay ${showingOverlay}`}>
+      <div
+        ref={collapsedNavRef}
+        onClick={() => setIsShowing(!isShowing)}
+        className={`nav-overlay ${showingOverlay}`}
+      >
         <div ref={navItemsRef} className={`nav-items ${showingClass}`}>
           <NavLinks />
           <UserAccess />
