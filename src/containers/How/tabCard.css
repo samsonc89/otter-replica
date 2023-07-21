@@ -3,10 +3,8 @@
   flex-direction: column;
   background-color: var(--light-asset-bg-color);
   padding: 1.5rem;
-  height: 100%;
   border-radius: 48px;
   gap: 1.2rem;
-  /* position: absolute; */
   top: 100%;
 }
 

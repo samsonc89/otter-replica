@@ -1,6 +1,6 @@
 .how-wrapper {
   margin: 0 auto;
-  max-width: 70rem;
+  width: clamp(60%, 70rem, 90%);
   display: flex;
   justify-content: space-between;
 }
