@@ -31,7 +31,9 @@
   flex: 50%;
   max-width: 50%;
 }
-
+.testimonials-carousel {
+  height: 100%;
+}
 .testimonials-carousel-wrapper {
   display: flex;
   gap: 30px;
@@ -44,8 +46,10 @@
 @media screen and (max-width: 991px) {
   .testimonials-wrapper {
     flex-direction: column;
+    width: 100%;
   }
   .testimonials-column-left {
+    padding: 0 5%;
     display: flex;
     justify-content: space-between;
     max-width: 100%;
