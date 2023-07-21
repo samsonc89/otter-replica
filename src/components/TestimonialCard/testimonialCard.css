@@ -40,6 +40,13 @@
   .testimonial-card {
     width: 40vw;
   }
+
+  .testimonial-card:first-child {
+    margin-left: 5rem;
+  }
+  .testimonial-card:last-child {
+    margin-right: 15rem;
+  }
   .testimonial-text {
     margin-bottom: 2em;
   }
