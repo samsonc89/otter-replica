@@ -1,5 +1,5 @@
 import { Feature, Navbar } from "./components";
-import { Header, How, Testimonials } from "./containers";
+import { Header, How, Testimonials, Why } from "./containers";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <How />
         <Testimonials />
         <Feature />
+        <Why />
       </main>
     </>
   );
