@@ -20,16 +20,29 @@
   display: flex;
   padding: 3%;
   align-items: center;
+  min-height: 25rem;
+  position: relative;
+  overflow: hidden;
 }
 .why-card-heading {
   font-size: 2.5rem;
   font-weight: 500;
 }
 .why-card-text-wrapper {
-  max-width: 54%;
+  width: 54%;
 }
 .why-card-text {
   font-size: 1.25rem;
+}
+.why-card-image {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto%;
+  right: 0%;
+  margin-right: -24%;
+  width: 70%;
+  padding-top: 3%;
 }
 
 .why-row1 {
