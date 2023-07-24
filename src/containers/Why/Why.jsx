@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import { ContentHeading } from "../../components";
 import "./why.css";
+import lookingahead from "../../assets/lookingahead.svg";
+import nightout from "../../assets/nightout.svg";
 
 const WhyCard = ({ props, extraClasses }) => {
   return (
