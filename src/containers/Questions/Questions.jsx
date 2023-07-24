@@ -1,12 +1,17 @@
 /* eslint-disable react/prop-types */
+import { useState } from "react";
 import "./questions.css";
 
 const QuestionCard = ({ props }) => {
+  const [active, setActive] = useState(false);
+
   return (
-    <div className="question-card">
+    <div onClick={() => setActive(!active)} className="question-card">
       <div className="question-card-content">
         <h2 className="question-title">{props.question}</h2>
-        <p className="question-text">{props.text}</p>
+        <p className={`question-text ${active ? "" : "hidden-text"}`}>
+          {props.text}
+        </p>
       </div>
       <div className="expand-btn-wrapper">
         <div className="expand-card-btn">
