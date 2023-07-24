@@ -133,4 +133,53 @@
 }
 
 @media screen and (max-width: 480px) {
+  .why-section {
+    width: 90%;
+  }
+  .why-heading-wrapper {
+    width: 85%;
+  }
+
+  .why-card {
+    padding: 4%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .why-card-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .why-card-text-wrapper {
+    width: 90%;
+  }
+
+  .why-card-image {
+    position: relative;
+    margin: 0;
+    width: 100%;
+  }
+  .why-row2 {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-row2-card {
+    width: 70%;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 0;
+    padding: 0;
+  }
+  .why-row2-images {
+    flex: 1;
+    position: relative;
+  }
+
+  .why-row2-image {
+    max-width: 23rem;
+  }
 }
