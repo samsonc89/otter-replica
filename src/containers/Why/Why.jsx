@@ -6,7 +6,7 @@ import nightout from "../../assets/nightout.webp";
 import row2 from "../../assets/row2.webp";
 import row2right from "../../assets/row2-right.webp";
 
-const WhyCard = ({ props, extraClasses }) => {
+const WhyCard = ({ props, extraClasses = "" }) => {
   return (
     <>
       {" "}
