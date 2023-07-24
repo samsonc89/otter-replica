@@ -3,10 +3,16 @@ import "./questions.css";
 
 const QuestionCard = ({ props }) => {
   return (
-    <div className="question-card-wrapper">
+    <div className="question-card">
       <div className="question-card-content">
         <h2 className="question-title">{props.question}</h2>
         <p className="question-text">{props.text}</p>
+      </div>
+      <div className="expand-btn-wrapper">
+        <div className="expand-card-btn">
+          <span></span>
+          <span className="rotating-line"></span>
+        </div>
       </div>
     </div>
   );
@@ -41,7 +47,11 @@ const Questions = () => {
         <h2 className="content-heading">Common questions</h2>
         <button className="faqs-btn btn-signup">View all FAQs</button>
       </div>
-      <div className="questions-content-wrapper"></div>
+      <div className="questions-content-wrapper">
+        {questions.map((item, i) => {
+          return <QuestionCard key={i} props={item} />;
+        })}
+      </div>
     </section>
   );
 };
