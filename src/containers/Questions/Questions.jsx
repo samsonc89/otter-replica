@@ -37,7 +37,10 @@ const Questions = () => {
   ];
   return (
     <section className="main-section questions-section">
-      <div className="questions-heading"></div>
+      <div className="questions-header">
+        <h2 className="content-heading">Common questions</h2>
+        <button className="faqs-btn btn-signup">View all FAQs</button>
+      </div>
       <div className="questions-content-wrapper"></div>
     </section>
   );
