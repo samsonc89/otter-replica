@@ -140,27 +140,28 @@
     width: 85%;
   }
 
-  .why-card {
-    padding: 4%;
+  .why-row1 {
     flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
-    gap: 1rem;
+    gap: 2.5rem;
+  }
+
+  .why-card {
+    flex-direction: column-reverse;
   }
 
   .why-card-heading {
-    font-size: 2rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
   }
   .why-card-text-wrapper {
-    width: 90%;
+    width: 80%;
+    margin-bottom: 1rem;
   }
 
-  .why-card-image {
-    position: relative;
-    margin: 0;
-    width: 100%;
+  .why-card-text {
+    font-size: 1rem;
   }
+
   .why-row2 {
     padding: 4%;
     display: flex;
