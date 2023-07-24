@@ -16,7 +16,7 @@ const QuestionCard = ({ props }) => {
       <div className="expand-btn-wrapper">
         <div className="expand-card-btn">
           <span></span>
-          <span className="rotating-line"></span>
+          <span className={active ? "active-line" : "rotating-line"}></span>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ const Questions = () => {
     },
     {
       question: "How are Sitter's sitters vetted?",
-      text: "Our community is made up of highly vetted sitters who have been selected based on their ability to create a safe environment for your pet. We can confidently say that we’d leave our own pet with Sitter sitters in a heartbeat – and we do! /n /n In order to be active on Sitter, every sitter goes through a multi-point vetting process including a skills assessment, background-check, and reference check from previous families.  Sitter also offers free CPR and First Aid training opportunities for sitters.",
+      text: "Our community is made up of highly vetted sitters who have been selected based on their ability to create a safe environment for your pet. We can confidently say that we’d leave our own pet with Sitter sitters in a heartbeat – and we do! \n \n In order to be active on Sitter, every sitter goes through a multi-point vetting process including a skills assessment, background-check, and reference check from previous families.  Sitter also offers free CPR and First Aid training opportunities for sitters.",
     },
     {
       question: "Where is Sitter available?",
