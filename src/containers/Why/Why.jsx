@@ -3,6 +3,8 @@ import { ContentHeading } from "../../components";
 import "./why.css";
 import lookingahead from "../../assets/lookingahead.webp";
 import nightout from "../../assets/nightout.webp";
+import row2 from "../../assets/row2.webp";
+import row2right from "../../assets/row2-right.webp";
 
 const WhyCard = ({ props, extraClasses }) => {
   return (
@@ -56,8 +58,12 @@ const Why = () => {
         <div className="why-row2">
           <WhyCard props={cards[2]} extraClasses={"why-row2-card"} />
           <div className="why-row2-images">
-            <div className="why-row2-image1"></div>
-            <div className="why-row2-image2"></div>
+            <div className="why-row2-image row2-image1">
+              <img src={row2} />
+            </div>
+            <div className="why-row2-image row2-image2">
+              <img src={row2right} />
+            </div>
           </div>
         </div>
       </div>
