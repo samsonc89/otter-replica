@@ -23,7 +23,8 @@
   margin-top: 2rem;
 }
 .question-card {
-  padding: 2rem;
+  cursor: pointer;
+  padding: 1.75rem;
   border-radius: 45px;
   display: flex;
   justify-content: space-between;
@@ -38,9 +39,17 @@
 }
 
 .question-title {
+  padding: 0.5rem 0;
   font-size: 1.25rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+}
+
+.question-text {
+  overflow: hidden;
+}
+
+.hidden-text {
+  height: 0;
 }
 
 .expand-card-btn {
