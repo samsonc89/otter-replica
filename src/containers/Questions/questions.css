@@ -12,3 +12,14 @@
 .faqs-btn {
   background-color: #ccfff3;
 }
+
+.questions-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.question-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light-asset-bg-color);
+}
