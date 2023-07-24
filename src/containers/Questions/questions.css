@@ -12,6 +12,9 @@
 .faqs-btn {
   background-color: #ccfff3;
 }
+.faqs-btn:hover {
+  background-color: var(--accent-color);
+}
 
 .questions-content-wrapper {
   display: flex;
