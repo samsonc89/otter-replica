@@ -17,18 +17,27 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 2rem;
 }
 .question-card {
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 45px;
   display: flex;
   justify-content: space-between;
   background-color: var(--light-asset-bg-color);
 }
 
+.question-card-content * {
+  text-align: start;
+}
+.question-card-content {
+  width: 75%;
+}
+
 .question-title {
   font-size: 1.25rem;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .expand-card-btn {
