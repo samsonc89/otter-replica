@@ -31,17 +31,17 @@ const Why = () => {
   const cards = [
     {
       heading: "Looking Ahead",
-      text: "Look at you being so ahead of the game. We can book childcare up to a month out — we look forward to seeing you then.",
+      text: "Look at you being so ahead of the game. We can book petcare up to a month out — we look forward to seeing you then.",
       img: lookingahead,
     },
     {
       heading: "A Night Out",
-      text: "Nothing should get in the way of the time you spend together, without your kids. Our sitters make date night easy to pull off.",
+      text: "Nothing should get in the way of the time you spend together, without your pets. Our sitters make date night easy to pull off.",
       img: nightout,
     },
     {
       heading: "In a Pinch",
-      text: "Emergency? Sick nanny? No problem, we can help! We can fill requests with as little as two hours' notice.",
+      text: "Emergency? Sick sitter? No problem, we can help! We can fill requests with as little as two hours' notice.",
     },
   ];
 
