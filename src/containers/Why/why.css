@@ -3,17 +3,38 @@
   width: 80%;
 }
 
-.why-text-wrapper {
+.why-heading-wrapper {
   width: 35%;
   margin: 0 auto;
 }
 
+.why-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.why-card {
+  background-color: var(--light-asset-bg-color);
+  border-radius: 25px;
+  display: flex;
+  padding: 3%;
+  align-items: center;
+}
 .why-card-heading {
   font-size: 2.5rem;
   font-weight: 500;
 }
+.why-card-text-wrapper {
+  max-width: 54%;
+}
 .why-card-text {
   font-size: 1.25rem;
+}
+
+.why-row1 {
+  display: flex;
+  gap: 2rem;
 }
 
 @media screen and (max-width: 991px) {
