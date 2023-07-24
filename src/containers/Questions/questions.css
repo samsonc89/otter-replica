@@ -26,6 +26,11 @@
   background-color: var(--light-asset-bg-color);
 }
 
+.question-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
 .expand-card-btn {
   height: 40px;
   width: 40px;
