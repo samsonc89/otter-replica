@@ -65,9 +65,14 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.why-row2-image {
+  max-width: 30%;
 }
 
 @media screen and (max-width: 991px) {
