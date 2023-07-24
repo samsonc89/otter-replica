@@ -45,11 +45,13 @@
 }
 
 .question-text {
+  max-height: 1000px;
   overflow: hidden;
+  transition: max-height 0.6s ease;
 }
 
 .hidden-text {
-  height: 0;
+  max-height: 0;
 }
 
 .expand-card-btn {
