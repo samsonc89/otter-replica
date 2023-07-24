@@ -32,10 +32,12 @@ const Why = () => {
     {
       heading: "Looking Ahead",
       text: "Look at you being so ahead of the game. We can book childcare up to a month out — we look forward to seeing you then.",
+      img: lookingahead,
     },
     {
       heading: "A Night Out",
       text: "Nothing should get in the way of the time you spend together, without your kids. Our sitters make date night easy to pull off.",
+      img: nightout,
     },
     {
       heading: "In a Pinch",
