@@ -1,0 +1,14 @@
+.questions-section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.questions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faqs-btn {
+  background-color: #ccfff3;
+}
