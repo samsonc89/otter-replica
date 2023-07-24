@@ -50,7 +50,7 @@ const Questions = () => {
     <section className="main-section questions-section">
       <div className="questions-header">
         <h2 className="content-heading">Common questions</h2>
-        <button className="faqs-btn btn-signup">View all FAQs</button>
+        <button className="faqs-btn btn btn-signup">View all FAQs</button>
       </div>
       <div className="questions-content-wrapper">
         {questions.map((item, i) => {
