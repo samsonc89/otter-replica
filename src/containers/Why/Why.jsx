@@ -13,7 +13,9 @@ const WhyCard = ({ props, extraClasses }) => {
           <h2 className="why-card-heading">{props.heading}</h2>
           <p className="why-card-text">{props.text}</p>
         </div>
-        <div className="why-card-image"></div>
+        <div className="why-card-image">
+          <img src={props.img} />
+        </div>
       </div>
     </>
   );
