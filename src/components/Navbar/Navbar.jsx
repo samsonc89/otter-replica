@@ -13,6 +13,10 @@ const Navbar = () => {
 
   let showingOverlay = isShowing ? "showing-overlay" : "closing";
 
+  const handleTransition = () => {
+    collapsedNavRef.current.classList.remove("closing");
+  };
+
   return (
     <nav className="nav-wrapper container">
       <div className="nav-logo-wrapper">
@@ -21,6 +25,7 @@ const Navbar = () => {
         </a>
       </div>
       <div
+        onTransitionEnd={() => handleTransition()}
         ref={collapsedNavRef}
         onClick={() => setIsShowing(!isShowing)}
         className={`nav-overlay ${showingOverlay}`}
