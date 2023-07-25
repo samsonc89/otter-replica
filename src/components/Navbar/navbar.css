@@ -50,14 +50,6 @@ nav ul {
   background: none;
 }
 
-.btn-signup {
-  border: 2px solid transparent;
-  border-radius: 25px;
-  padding: 0.875em 1.35em;
-  line-height: 1;
-  font-weight: 500;
-}
-
 .toggle-nav-btn {
   display: none;
 }
