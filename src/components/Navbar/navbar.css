@@ -45,6 +45,9 @@ nav ul {
   gap: 1em;
 }
 
+.login-wrapper > .btn-signup {
+  background-color: var(--light-asset-bg-color);
+}
 .btn-login {
   border: none;
   background: none;
