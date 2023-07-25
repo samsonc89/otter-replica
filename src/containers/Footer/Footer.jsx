@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./footer.css";
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -51,7 +52,9 @@ const Footer = () => {
             </div>
             <div className="footer-right-shape-container">
               <div className="footer-right-shape"></div>
-              <div className="footer-logo"></div>
+              <div className="footer-logo">
+                <img src={logo} alt="" />
+              </div>
             </div>
           </div>
           <div className="footer-row footer-row-bottom">

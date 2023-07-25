@@ -104,3 +104,10 @@
   margin-top: -26%;
   margin-right: -12%;
 }
+
+.footer-logo {
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  top: 0%;
+}
