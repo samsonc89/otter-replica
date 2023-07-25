@@ -92,6 +92,13 @@
     width: 90%;
   }
 
+  .questions-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+
   .questions-content-wrapper {
     gap: 1.75rem;
   }
