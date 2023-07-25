@@ -49,7 +49,10 @@ const Footer = () => {
                 <a href="">Linkedin</a>
               </div>
             </div>
-            <div className="footer-right-shape"></div>
+            <div className="footer-right-shape-container">
+              <div className="footer-right-shape"></div>
+              <div className="footer-logo"></div>
+            </div>
           </div>
           <div className="footer-row footer-row-bottom">
             <div className="footer-links-wrapper">
