@@ -96,6 +96,9 @@
     gap: 1.75rem;
   }
 
+  .question-card {
+    padding: 1.5rem;
+  }
   .question-card-content {
     width: 80%;
   }
