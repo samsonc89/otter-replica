@@ -55,8 +55,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-row footer-row-bottom">
-            <div className="footer-links-wrapper">
+            <div className="footer-links-wrapper footer-links-bottom">
               <a href="">Terms of Use</a>
+              <div className="footer-dot"></div>
               <a href="">Privacy Policy</a>
             </div>
             <p>© 2023 Sitter Inc.</p>
