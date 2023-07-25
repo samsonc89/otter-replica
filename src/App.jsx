@@ -1,5 +1,12 @@
 import { Feature, Navbar } from "./components";
-import { Header, How, Questions, Testimonials, Why } from "./containers";
+import {
+  Footer,
+  Header,
+  How,
+  Questions,
+  Testimonials,
+  Why,
+} from "./containers";
 
 function App() {
   return (
@@ -13,6 +20,7 @@ function App() {
         <Why />
         <Questions />
       </main>
+      <Footer />
     </>
   );
 }
