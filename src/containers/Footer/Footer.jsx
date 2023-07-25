@@ -19,12 +19,14 @@ const Footer = () => {
       <div className="footer-wrapper">
         <div className="footer-cta">
           <div className="footer-cta-shape"></div>
-          <h2 className="footer-cta-heading">The bright side of petcare</h2>
-          <p className="footer-cta-text">
-            Get reliable on demand petcare from vetted sitters in your
-            community.
-          </p>
-          <button className="footer-btn btn btn-signup">Get Started</button>
+          <div className="footer-cta-content">
+            <h2 className="footer-cta-heading">The bright side of petcare</h2>
+            <p className="footer-cta-text">
+              Get reliable on demand petcare from vetted sitters in your
+              community.
+            </p>
+            <button className="footer-btn btn btn-signup">Get Started</button>
+          </div>
         </div>
         <div className="footer-right-wrapper">
           <div className="footer-row">
