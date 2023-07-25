@@ -120,6 +120,24 @@
     width: 40%;
     left: -15%;
   }
+  .footer-cta-content {
+    max-width: 65%;
+  }
+
+  .footer-right-wrapper {
+    gap: 2.5rem;
+  }
+  .footer-links {
+    gap: 1.5rem;
+  }
+  .footer-right-shape {
+    height: 170%;
+    width: 40%;
+    right: 0%;
+    top: 0;
+    margin-top: -20%;
+    margin-right: -12%;
+  }
 }
 @media screen and (max-width: 768px) {
 }
