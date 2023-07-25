@@ -28,6 +28,11 @@
   margin-bottom: 3rem;
 }
 
+.footer-btn {
+  color: var(--main-text-color);
+  background-color: #ccfff3;
+}
+
 .footer-right-wrapper {
   min-width: 66%;
   padding: 2.5rem;

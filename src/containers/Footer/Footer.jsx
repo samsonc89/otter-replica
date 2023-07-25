@@ -12,7 +12,7 @@ const Footer = () => {
             Get reliable on demand petcare from vetted sitters in your
             community.
           </p>
-          <div className="btn btn-signup">Get Started</div>
+          <button className="footer-btn btn btn-signup">Get Started</button>
         </div>
         <div className="footer-right-wrapper">
           <div className="footer-row">
