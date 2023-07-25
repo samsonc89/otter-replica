@@ -92,6 +92,10 @@
     width: 90%;
   }
 
+  .questions-content-wrapper {
+    gap: 1.75rem;
+  }
+
   .question-card-content {
     width: 80%;
   }
