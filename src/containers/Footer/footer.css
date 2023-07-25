@@ -26,7 +26,6 @@
   background-color: #94954c;
   top: 40%;
   left: -35%;
-  z-index: -0;
 }
 
 .footer-cta-content {
@@ -110,4 +109,20 @@
   z-index: 1;
   right: 5%;
   top: 0%;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-cta-shape {
+    width: 40%;
+    left: -15%;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
 }
