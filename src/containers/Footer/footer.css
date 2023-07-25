@@ -176,12 +176,20 @@
   .footer-links-wrapper {
     position: relative;
     z-index: 1;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .footer-links {
+    margin-top: 1rem;
+    width: 50%;
+    gap: 1rem;
   }
   .footer-right-shape {
-    height: 120%;
+    height: 70%;
     width: 100%;
-    left: -40%;
-    top: 30%;
+    left: -35%;
+    top: 22%;
     margin-top: -76%;
     margin-right: 72%;
   }
@@ -194,5 +202,7 @@
   }
   .footer-row-bottom {
     padding-top: 2.5rem;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
