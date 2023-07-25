@@ -146,4 +146,23 @@
 }
 
 @media screen and (max-width: 480px) {
+  .footer-cta {
+    padding: 1.5rem;
+  }
+  .footer-cta-content {
+    max-width: 100%;
+  }
+
+  .footer-cta-heading {
+    font-size: 1.25rem;
+  }
+  .footer-cta-text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-cta-shape {
+    width: 50%;
+    top: 50%;
+  }
 }
