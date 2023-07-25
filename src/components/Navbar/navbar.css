@@ -68,7 +68,7 @@ nav ul {
 
 @media screen and (max-width: 991px) {
   nav {
-    margin: 0;
+    margin: 2rem 0;
   }
   .nav-logo-wrapper {
     justify-content: start;
@@ -165,7 +165,7 @@ nav ul {
 
 @media screen and (max-width: 479px) {
   nav {
-    margin: 1.75rem 0.25rem 2.75rem;
+    margin: 2rem 0.25rem 2.75rem;
     /* margin-bottom: 2.75rem; */
   }
   .section-container {
