@@ -136,6 +136,13 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .footer-cta-content {
+    max-width: 85%;
+  }
+
+  .footer-cta-heading {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
