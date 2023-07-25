@@ -165,16 +165,23 @@
     width: 50%;
     top: 50%;
   }
+  .footer-right-wrapper {
+    padding: 1.5rem;
+  }
+
+  .footer-row {
+    padding-top: 5rem;
+  }
 
   .footer-links-wrapper {
     position: relative;
     z-index: 1;
   }
   .footer-right-shape {
-    height: 170%;
+    height: 120%;
     width: 100%;
     left: -40%;
-    top: 10%;
+    top: 30%;
     margin-top: -76%;
     margin-right: 72%;
   }
@@ -182,7 +189,10 @@
   .footer-logo {
     position: absolute;
     z-index: 1;
-    left: -5%;
-    top: -10%;
+    left: 0;
+    top: 0;
+  }
+  .footer-row-bottom {
+    padding-top: 2.5rem;
   }
 }
