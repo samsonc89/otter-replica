@@ -1,26 +1,9 @@
-import { Feature, Navbar } from "./components";
-import {
-  Footer,
-  Header,
-  How,
-  Questions,
-  Testimonials,
-  Why,
-} from "./containers";
+import { Home } from "./pages";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <main>
-        <How />
-        <Testimonials />
-        <Feature />
-        <Why />
-        <Questions />
-      </main>
-      <Footer />
+      <Home />
     </>
   );
 }

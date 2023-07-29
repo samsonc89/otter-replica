@@ -1,4 +1,4 @@
-import { Feature, Navbar } from "./components";
+import { Feature, Navbar } from "../components";
 import {
   Footer,
   Header,
@@ -6,7 +6,7 @@ import {
   Questions,
   Testimonials,
   Why,
-} from "./containers";
+} from "../containers";
 
 function Home() {
   return (
