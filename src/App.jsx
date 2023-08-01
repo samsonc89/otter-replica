@@ -1,12 +1,5 @@
-import { Feature, Navbar } from "./components";
-import {
-  Footer,
-  Header,
-  How,
-  Questions,
-  Testimonials,
-  Why,
-} from "./containers";
+import { Footer, Feature, Navbar } from "./components";
+import { Header, How, Questions, Testimonials, Why } from "./containers";
 
 function App() {
   return (
