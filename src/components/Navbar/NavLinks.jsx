@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const NavLinks = () => {
   return (
     <ul className="nav-links">
       <li>
-        <a href="#parents">Parents</a>
+        <Link to="/otter-replica/parents">Parents</Link>
       </li>
       <li>
         <a href="#sitters">Sitters</a>
