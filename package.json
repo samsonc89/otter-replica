@@ -1,5 +1,6 @@
 {
   "name": "otter-replica",
+  "homepage": "https://samsonc89.github.io/otter-replica",
   "private": true,
   "version": "0.0.0",
   "type": "module",
