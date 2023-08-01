@@ -1,4 +1,4 @@
-.header-wrapper {
+.hero-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,7 @@
   .hero-p {
     margin: 10px 2.5vw;
   }
-  .header-wrapper {
+  .hero-wrapper {
     max-height: 750px;
     padding-bottom: 0;
   }
@@ -177,7 +177,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .header-wrapper {
+  .hero-wrapper {
     max-height: 670px;
   }
   .hero-container {
@@ -192,7 +192,7 @@
 /* Add ipad adjustments next*/
 
 @media screen and (max-width: 479px) {
-  .header-wrapper {
+  .hero-wrapper {
     width: 90%;
   }
   .hero-container {

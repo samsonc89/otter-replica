@@ -6,7 +6,7 @@ import SignupBtn from "../../components/SignupBtn";
 
 const Hero = () => {
   return (
-    <header className="header-wrapper container">
+    <section className="hero-wrapper container">
       <div className="clipPaths-container">
         <svg>
           <clipPath id="top-left" clipPathUnits="objectBoundingBox">
@@ -81,7 +81,7 @@ const Hero = () => {
         </p>
         <SignupBtn />
       </div>
-    </header>
+    </section>
   );
 };
 
