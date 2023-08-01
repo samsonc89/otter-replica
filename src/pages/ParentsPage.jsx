@@ -1,13 +1,12 @@
-import { Navbar } from "../components";
 import { How } from "../containers";
+import MainLayout from "../layouts/MainLayout";
 
 function Parents() {
   return (
     <>
-      <Navbar />
-      <main>
+      <MainLayout>
         <How />
-      </main>
+      </MainLayout>
     </>
   );
 }
