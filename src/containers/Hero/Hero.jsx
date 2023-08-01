@@ -1,4 +1,4 @@
-import "./header.css";
+import "./hero.css";
 import topLeft from "../../assets/topleft.jpg";
 import bottomLeft from "../../assets/bottomLeft.jpg";
 import bottomRight from "../../assets/bottomRight.jpg";
