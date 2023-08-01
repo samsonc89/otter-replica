@@ -1,19 +1,18 @@
-import { Footer, Feature, Navbar } from "./components";
+import { Feature } from "./components";
 import { Header, How, Questions, Testimonials, Why } from "./containers";
+import MainLayout from "./layouts/MainLayout";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <main>
+      <MainLayout>
+        <Header />
         <How />
         <Testimonials />
         <Feature />
         <Why />
         <Questions />
-      </main>
-      <Footer />
+      </MainLayout>
     </>
   );
 }
