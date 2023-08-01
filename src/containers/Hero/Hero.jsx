@@ -4,7 +4,7 @@ import bottomLeft from "../../assets/bottomLeft.jpg";
 import bottomRight from "../../assets/bottomRight.jpg";
 import SignupBtn from "../../components/SignupBtn";
 
-const Header = () => {
+const Hero = () => {
   return (
     <header className="header-wrapper container">
       <div className="clipPaths-container">
@@ -85,4 +85,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

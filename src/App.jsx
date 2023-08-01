@@ -1,12 +1,12 @@
 import { Feature } from "./components";
-import { Header, How, Questions, Testimonials, Why } from "./containers";
+import { Hero, How, Questions, Testimonials, Why } from "./containers";
 import MainLayout from "./layouts/MainLayout";
 
 function App() {
   return (
     <>
       <MainLayout>
-        <Header />
+        <Hero />
         <How />
         <Testimonials />
         <Feature />
