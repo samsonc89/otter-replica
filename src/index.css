@@ -103,6 +103,10 @@ h1 {
   font-size: 1.5rem;
 }
 
+.heading-text {
+  font-size: 1.25rem;
+}
+
 .small-heading {
   font-size: 0.87rem;
   font-weight: 500;
