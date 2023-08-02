@@ -90,6 +90,17 @@ button {
   -webkit-appearance: none;
 }
 
+.btn-signup-inverse {
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 0.875em 1.35em;
+  line-height: 1;
+  font-weight: 500;
+  color: #ccfff3;
+  background-color: var(--main-text-color);
+  -webkit-appearance: none;
+}
+
 h1 {
   letter-spacing: -0.02em;
   word-spacing: -0.05em;
