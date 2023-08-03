@@ -7,7 +7,7 @@ import SignupBtn from "../../components/SignupBtn";
 const Hero = () => {
   return (
     <section className="hero-wrapper container">
-      <div className="clipPaths-container">
+      {/* <div className="clipPaths-container">
         <svg>
           <clipPath id="top-left" clipPathUnits="objectBoundingBox">
             <path
@@ -37,7 +37,7 @@ const Hero = () => {
             <path d="M0.996,0.23 C1,0.296,0.946,0.473,0.861,0.648 C0.776,0.823,0.71,0.984,0.613,0.999 C0.519,1,0.337,0.862,0.218,0.735 C0.131,0.643,0.048,0.549,0.025,0.502 C-0.013,0.426,-0.006,0.312,0.038,0.257 C0.085,0.197,0.175,0.204,0.417,0.139 C0.602,0.089,0.668,-0.008,0.76,0 C0.837,0.007,0.975,0.164,0.996,0.23"></path>
           </clipPath>
         </svg>
-      </div>
+      </div> */}
 
       <div className="hero-container">
         <div className="hero-column">
