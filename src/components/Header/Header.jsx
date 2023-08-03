@@ -4,7 +4,7 @@ import "./header.css";
 const Header = ({ props }) => {
   return (
     <header className="main-section header-section">
-      <div className="header-col=left">
+      <div className="header-col-left">
         <h1>{props.heading}</h1>
         <p className="heading-text">{props.text}</p>
         <button className="btn-signup-inverse">{props.btnText}</button>
