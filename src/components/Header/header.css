@@ -78,11 +78,6 @@
     justify-content: center;
     max-width: 40%;
   }
-  .header-image-wrapper {
-  }
-
-  .header-image {
-  }
 
   .header-shape-wrapper {
     position: absolute;
@@ -95,6 +90,31 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .header-section {
+    flex-direction: column;
+  }
+
+  .header-col-left {
+    gap: 1.25rem;
+  }
+  .header-col-right {
+    max-width: 90%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .header-image-wrapper {
+    width: 470px;
+  }
+
+  .header-shape-wrapper {
+    position: absolute;
+    margin-right: -30%;
+    margin-top: 0%;
+  }
+
+  .header-shape {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 479px) {
