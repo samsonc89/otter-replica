@@ -10,8 +10,8 @@ const Header = ({ props }) => {
         <button className="btn-signup-inverse">{props.btnText}</button>
       </div>
       <div className="header-col-right">
-        <div className="header-image-wrapper">
-          <img src={props.img} alt="header-image" />
+        <div className={`header-image-wrapper clip-${props.topShape}`}>
+          <img src={props.img} alt="header-image" className="header-image" />
         </div>
         <div className="header-shape"></div>
       </div>
