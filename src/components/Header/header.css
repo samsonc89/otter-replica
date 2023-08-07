@@ -1,7 +1,7 @@
 .header-section {
   display: flex;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 8%;
   justify-content: space-between;
 }
 
@@ -19,8 +19,9 @@
 
 .header-image-wrapper {
   position: relative;
-  width: 450px;
-  height: 380px;
+  width: 430px;
+  height: 430px;
+  z-index: 1;
 }
 
 .header-image {
@@ -29,8 +30,30 @@
   top: -100%;
   left: -30%;
   max-width: none;
+  z-index: 1;
+}
+
+.header-shape-wrapper {
+  position: relative;
+}
+
+.header-shape {
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  z-index: 12;
+  margin-left: 40%;
+  margin-top: -10%;
 }
 
 .clip-middle-left {
   clip-path: url(#middle-left);
+}
+.clip-bottom-left {
+  clip-path: url(#bottom-left);
+}
+
+.clip-top-left {
+  clip-path: url(#top-left);
+  rotate: 180deg;
 }
