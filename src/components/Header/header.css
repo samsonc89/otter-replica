@@ -2,6 +2,7 @@
   display: flex;
   width: 80%;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .header-col-left {
@@ -14,4 +15,22 @@
 
 .header-col-left > * {
   text-align: start;
+}
+
+.header-image-wrapper {
+  position: relative;
+}
+
+.header-image {
+  position: absolute;
+  width: 150%;
+  top: -20%;
+  left: -30%;
+  max-width: none;
+}
+
+.clip-middle-left {
+  clip-path: url(#middle-left);
+  width: 450px;
+  height: 380px;
 }
