@@ -19,18 +19,18 @@
 
 .header-image-wrapper {
   position: relative;
+  width: 450px;
+  height: 380px;
 }
 
 .header-image {
   position: absolute;
   width: 150%;
-  top: -20%;
+  top: -100%;
   left: -30%;
   max-width: none;
 }
 
 .clip-middle-left {
   clip-path: url(#middle-left);
-  width: 450px;
-  height: 380px;
 }
