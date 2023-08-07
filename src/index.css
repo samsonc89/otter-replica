@@ -88,6 +88,7 @@ button {
   background-color: #ccfff3;
   color: var(--main-text-color);
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .btn-signup-inverse {
@@ -99,6 +100,7 @@ button {
   color: #ccfff3;
   background-color: var(--main-text-color);
   -webkit-appearance: none;
+  appearance: none;
 }
 
 h1 {
