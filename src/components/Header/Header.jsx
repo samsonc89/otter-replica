@@ -13,7 +13,12 @@ const Header = ({ props }) => {
         <div className={`header-image-wrapper clip-${props.topShape}`}>
           <img src={props.img} alt="header-image" className="header-image" />
         </div>
-        <div className="header-shape"></div>
+        <div className="header-shape-wrapper">
+          <div
+            className={`header-shape clip-${props.bottomShape}`}
+            style={{ backgroundColor: `${props.bottomColor}` }}
+          ></div>
+        </div>
       </div>
     </header>
   );
