@@ -98,7 +98,7 @@
   }
   .header-col-left {
     gap: 1.25rem;
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .header-col-right {
@@ -106,17 +106,19 @@
     flex-direction: row;
     justify-content: space-around;
   }
+
   .header-image-wrapper {
-    width: 470px;
+    margin-top: 10%;
+    width: 270px;
   }
 
   .header-shape-wrapper {
     position: absolute;
-    margin-right: -30%;
+    margin-right: -20%;
     margin-top: 0%;
   }
 
   .header-shape {
-    height: 250px;
+    height: 150px;
   }
 }
