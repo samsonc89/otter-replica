@@ -161,6 +161,9 @@ nav ul {
 }
 
 @media screen and (max-width: 767px) {
+  nav {
+    margin: 1.5rem 0;
+  }
 }
 
 @media screen and (max-width: 479px) {
