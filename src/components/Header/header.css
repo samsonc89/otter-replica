@@ -90,10 +90,12 @@
   }
 }
 @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 479px) {
   .header-section {
     flex-direction: column;
   }
-
   .header-col-left {
     gap: 1.25rem;
     max-width: 80%;
@@ -117,7 +119,4 @@
   .header-shape {
     height: 250px;
   }
-}
-
-@media screen and (max-width: 479px) {
 }
