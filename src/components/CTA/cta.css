@@ -1,0 +1,35 @@
+.cta-wrapper {
+  margin: 0 auto;
+  width: 90%;
+  padding: 5rem;
+  border-radius: 55px;
+  background-color: var(--light-asset-bg-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-text-wrapper {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.cta-heading {
+  line-height: 1;
+  text-align: left;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.cta-image-wrapper {
+  position: absolute;
+  top: -18%;
+  right: 0;
+  height: 100%;
+}
+
+.cta-image {
+  height: 135%;
+}

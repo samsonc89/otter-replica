@@ -9,7 +9,9 @@ const Cta = ({ props }) => {
           <h2 className="cta-heading">{props.ctaHeading}</h2>
           <button className="btn-signup-inverse">{props.ctaBtn}</button>
         </div>
-        <div className="cta-image-wrapper"></div>
+        <div className="cta-image-wrapper">
+          <img src={props.ctaImg} alt="" className="cta-image" />
+        </div>
       </div>
     </section>
   );
