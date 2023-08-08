@@ -4,7 +4,7 @@ import "./testimonials.css";
 // import leftarrow from "../../assets/leftarrow.svg";
 // import rightarrow from "../../assets/rightarrow.svg";
 
-const Testimonials = () => {
+const Testimonials = ({ filter }) => {
   const sectionCopy = {
     smallTitle: "Testimonials",
     title: "What our village is saying",
@@ -78,7 +78,11 @@ const Testimonials = () => {
         <div className="testimonials-column-right">
           <div className="testimonials-carousel-wrapper">
             {testimonialsData.map((item, i) => {
-              return <TestimonialCard key={i} props={item} />;
+              if (filter === "") {
+                return <TestimonialCard key={i} props={item} />;
+              } else if (item.type === filter) {
+                return <TestimonialCard key={i} props={item} />;
+              }
             })}
           </div>
         </div>
