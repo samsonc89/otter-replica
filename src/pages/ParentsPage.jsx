@@ -1,4 +1,4 @@
-import { Header } from "../components";
+import { CTA, Header } from "../components";
 import { How } from "../containers";
 import MainLayout from "../layouts/MainLayout";
 import image from "../assets/header-parents.jpg";
@@ -18,6 +18,7 @@ function Parents() {
       <MainLayout>
         <Header props={headingContent} />
         <How />
+        <CTA />
       </MainLayout>
     </>
   );

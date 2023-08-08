@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import "./cta.css";
 
-const CTA = () => {
-  return <div className="cta-wrapper"></div>;
+const Cta = () => {
+  return <div className="cta-wrapper">CTA</div>;
 };
 
-export default CTA;
+export default Cta;
