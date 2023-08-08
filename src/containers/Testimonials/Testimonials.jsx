@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { ContentHeading } from "../../components";
 import TestimonialCard from "../../components/TestimonialCard/TestimonialCard";
 import "./testimonials.css";
