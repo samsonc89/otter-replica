@@ -95,6 +95,7 @@
 @media screen and (max-width: 479px) {
   .header-section {
     flex-direction: column;
+    width: 90%;
   }
   .header-col-left {
     gap: 1.25rem;
