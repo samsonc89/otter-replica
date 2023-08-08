@@ -1,5 +1,5 @@
 import { CTA, Header } from "../components";
-import { How } from "../containers";
+import { How, Testimonials } from "../containers";
 import MainLayout from "../layouts/MainLayout";
 import image from "../assets/header-parents.jpg";
 import ctaImage from "../assets/cta-parents.webp";
@@ -23,6 +23,7 @@ function Parents() {
         <Header props={content} />
         <How />
         <CTA props={content} />
+        <Testimonials filter={"Parent"} />
       </MainLayout>
     </>
   );
