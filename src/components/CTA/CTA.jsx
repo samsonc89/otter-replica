@@ -1,8 +1,18 @@
 /* eslint-disable react/prop-types */
 import "./cta.css";
 
-const Cta = () => {
-  return <div className="cta-wrapper">CTA</div>;
+const Cta = ({ props }) => {
+  return (
+    <section className="main-section">
+      <div className="cta-wrapper">
+        <div className="cta-text-wrapper">
+          <h2 className="cta-heading">{props.ctaHeading}</h2>
+          <button className="btn-signup-inverse">{props.ctaBtn}</button>
+        </div>
+        <div className="cta-image-wrapper"></div>
+      </div>
+    </section>
+  );
 };
 
 export default Cta;
