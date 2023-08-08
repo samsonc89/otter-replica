@@ -2,6 +2,7 @@ import { CTA, Header } from "../components";
 import { How } from "../containers";
 import MainLayout from "../layouts/MainLayout";
 import image from "../assets/header-parents.jpg";
+import ctaImage from "../assets/cta-parents.webp";
 
 function Parents() {
   const content = {
@@ -14,6 +15,7 @@ function Parents() {
     bottomColor: "#94954c",
     ctaHeading: "Experienced petcare is right around the corner.",
     ctaBtn: "Book petcare",
+    ctaImg: ctaImage,
   };
   return (
     <>
