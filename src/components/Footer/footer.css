@@ -114,6 +114,7 @@
 @media screen and (max-width: 991px) {
   .footer-wrapper {
     flex-direction: column;
+    width: 85%;
   }
 
   .footer-cta-shape {
