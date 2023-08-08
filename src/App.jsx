@@ -8,7 +8,7 @@ function App() {
       <MainLayout>
         <Hero />
         <How />
-        <Testimonials />
+        <Testimonials filter={""} />
         <Feature />
         <Why />
         <Questions />
