@@ -33,3 +33,29 @@
 .cta-image {
   height: 135%;
 }
+
+@media screen and (max-width: 991px) {
+  .cta-wrapper {
+    padding: 7rem 3rem;
+    width: 85%;
+  }
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+
+  .cta-image-wrapper {
+    position: absolute;
+    top: 0;
+    right: -10%;
+    height: 100%;
+  }
+
+  .cta-image {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 479px) {
+}
