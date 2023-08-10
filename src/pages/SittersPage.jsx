@@ -6,9 +6,9 @@ import ctaImage from "../assets/cta-parents.webp";
 
 function Sitters() {
   const content = {
-    heading: "Quality petcare, when you need it",
-    text: "Sitter's care options are designed to cater to both planned and unplanned schedule changes, with sitters available with as little as 2 hours notice.",
-    btnText: "Book petcare",
+    heading: "Become a sitter, on your own time",
+    text: "Sitter is the petcare solution created for the people who need it as much as the people who provide it. We connect sitters with families who are in a pinch and need backup care.",
+    btnText: "Join us",
     img: image,
     topShape: "middle-left",
     bottomShape: "bottom-left",
