@@ -11,6 +11,11 @@ const Testimonials = ({ filter }) => {
     title: "What our village is saying",
     text: "Sitters who step in when things come up.",
   };
+  const sitterCopy = {
+    smallTitle: "Testimonials",
+    title: "What our sitters are saying",
+    text: "Sitters make $17/hr and up on average",
+  };
 
   const testimonialsData = [
     {
@@ -65,7 +70,7 @@ const Testimonials = ({ filter }) => {
         <div className="testimonials-column-left">
           <ContentHeading
             classes={"testimonials-text-wrapper"}
-            props={sectionCopy}
+            props={filter === "Sitter" ? sitterCopy : sectionCopy}
           />
           {/* <div className="testimonials-btn-wrapper">
             <button className="btn carousel-btn">
