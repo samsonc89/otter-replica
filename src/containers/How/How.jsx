@@ -7,13 +7,18 @@ import TabCard from "./TabCard";
 import { useState } from "react";
 import { ContentHeading } from "../../components";
 
-const How = () => {
+const How = ({ filter }) => {
   const [selected, setSelected] = useState(0);
 
   const sectionCopy = {
     smallTitle: "How it works",
     title: "We help families find reliable, flexible petcare",
     text: "We'll match you with sitters based on your family's needs and their availability.",
+  };
+  const sitterCopy = {
+    smallTitle: "How it works",
+    title: "Be the extra set of hands every family needs",
+    text: "Join us in making parents lives easier. Just follow these steps and you'll be all set to care with Sitter.",
   };
 
   const tabData = [
@@ -38,7 +43,10 @@ const How = () => {
     <section className="main-section">
       <div className="how-wrapper">
         <div className="how-column how-left">
-          <ContentHeading classes={"how-text-wrapper"} props={sectionCopy} />
+          <ContentHeading
+            classes={"how-text-wrapper"}
+            props={filter === "Sitter" ? sitterCopy : sectionCopy}
+          />
           <div className="how-tabs-wrapper">
             {tabData.map((tab, i) => {
               return (
