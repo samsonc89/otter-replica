@@ -23,7 +23,7 @@ function Sitters() {
         <Header props={content} />
         <How />
         <CTA props={content} />
-        <Testimonials filter={"Parent"} />
+        <Testimonials filter={"Sitter"} />
       </MainLayout>
     </>
   );
