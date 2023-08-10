@@ -65,6 +65,16 @@
   rotate: 180deg;
 }
 
+.clip-bottom-right {
+  clip-path: url(#bottom-right);
+
+  > .header-image {
+    object-fit: contain;
+    top: -70%;
+    left: -20%;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .header-section {
     width: 85%;
