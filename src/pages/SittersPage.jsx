@@ -13,8 +13,8 @@ function Sitters() {
     topShape: "bottom-right",
     bottomShape: "middle-left",
     bottomColor: "#fbd3b6",
-    ctaHeading: "Experienced petcare is right around the corner.",
-    ctaBtn: "Book petcare",
+    ctaHeading: "Make people’s day with kind, compassionate petcare.",
+    ctaBtn: "Sign up",
     ctaImg: ctaImage,
   };
   return (
