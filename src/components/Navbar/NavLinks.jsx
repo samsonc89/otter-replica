@@ -7,7 +7,7 @@ const NavLinks = () => {
         <Link to="/otter-replica/parents">Parents</Link>
       </li>
       <li>
-        <a href="#sitters">Sitters</a>
+        <Link to="/otter-replica/sitters">Sitters</Link>
       </li>
       <li>
         <a href="#trust">Trust & Safety</a>
