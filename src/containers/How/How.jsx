@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 import "./how.css";
 import tabOneImg from "../../assets/tab1.jpg";
@@ -39,6 +40,26 @@ const How = ({ filter }) => {
     },
   ];
 
+  const tabDataSitter = [
+    {
+      title: "Sign up",
+      img: tabOneImg,
+      text: "Tell us about yourself, your availability, and your petcare experience. We'll have you pass a background check to ensure a trustworthy, reliable community of sitters.",
+    },
+    {
+      title: "Find & book jobs",
+      img: tabTwoImg,
+      text: "We’ll match you with families and situations that fit your schedule, situation and experience. Care requests will come your way from parents that could use a hand.",
+    },
+    {
+      title: "Give care & get paid",
+      img: tabThreeImg,
+      text: "When it’s time, head over to your family's place to give care. You'll receive payment for your time and care the Friday following your bookings.",
+    },
+  ];
+
+  let data = filter === "Sitter" ? tabDataSitter : tabData;
+
   return (
     <section className="main-section">
       <div className="how-wrapper">
@@ -48,7 +69,7 @@ const How = ({ filter }) => {
             props={filter === "Sitter" ? sitterCopy : sectionCopy}
           />
           <div className="how-tabs-wrapper">
-            {tabData.map((tab, i) => {
+            {data.map((tab, i) => {
               return (
                 <div
                   key={i}
@@ -75,7 +96,7 @@ const How = ({ filter }) => {
           </div>
         </div>
         <div className="how-column how-right">
-          {tabData.map((tab, i) => {
+          {data.map((tab, i) => {
             return (
               <TabCard
                 key={i}
