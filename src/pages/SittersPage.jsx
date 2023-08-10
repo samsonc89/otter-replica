@@ -1,7 +1,7 @@
 import { CTA, Header } from "../components";
 import { How, Testimonials } from "../containers";
 import MainLayout from "../layouts/MainLayout";
-import image from "../assets/header-parents.jpg";
+import image from "../assets/header-sitters.jpg";
 import ctaImage from "../assets/cta-parents.webp";
 
 function Sitters() {
@@ -10,9 +10,9 @@ function Sitters() {
     text: "Sitter is the petcare solution created for the people who need it as much as the people who provide it. We connect sitters with families who are in a pinch and need backup care.",
     btnText: "Join us",
     img: image,
-    topShape: "middle-left",
-    bottomShape: "bottom-left",
-    bottomColor: "#94954c",
+    topShape: "bottom-right",
+    bottomShape: "middle-left",
+    bottomColor: "#fbd3b6",
     ctaHeading: "Experienced petcare is right around the corner.",
     ctaBtn: "Book petcare",
     ctaImg: ctaImage,
