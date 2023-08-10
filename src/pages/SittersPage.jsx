@@ -21,7 +21,7 @@ function Sitters() {
     <>
       <MainLayout>
         <Header props={content} />
-        <How />
+        <How filter={"Sitter"} />
         <CTA props={content} />
         <Testimonials filter={"Sitter"} />
       </MainLayout>
