@@ -2,7 +2,7 @@ import { CTA, Header } from "../components";
 import { How, Testimonials } from "../containers";
 import MainLayout from "../layouts/MainLayout";
 import image from "../assets/header-sitters.jpg";
-import ctaImage from "../assets/cta-parents.webp";
+import ctaImage from "../assets/cta-sitters.webp";
 
 function Sitters() {
   const content = {
