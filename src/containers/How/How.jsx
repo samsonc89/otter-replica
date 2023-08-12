@@ -4,6 +4,9 @@ import "./how.css";
 import tabOneImg from "../../assets/tab1.jpg";
 import tabTwoImg from "../../assets/tab2.jpg";
 import tabThreeImg from "../../assets/tab3.jpg";
+import tabFourImg from "../../assets/tab4.jpg";
+import tabFiveImg from "../../assets/tab5.jpg";
+import tabSixImg from "../../assets/tab6.jpg";
 import TabCard from "./TabCard";
 import { useState } from "react";
 import { ContentHeading } from "../../components";
@@ -43,17 +46,17 @@ const How = ({ filter }) => {
   const tabDataSitter = [
     {
       title: "Sign up",
-      img: tabOneImg,
+      img: tabFourImg,
       text: "Tell us about yourself, your availability, and your petcare experience. We'll have you pass a background check to ensure a trustworthy, reliable community of sitters.",
     },
     {
       title: "Find & book jobs",
-      img: tabTwoImg,
+      img: tabFiveImg,
       text: "We’ll match you with families and situations that fit your schedule, situation and experience. Care requests will come your way from parents that could use a hand.",
     },
     {
       title: "Give care & get paid",
-      img: tabThreeImg,
+      img: tabSixImg,
       text: "When it’s time, head over to your family's place to give care. You'll receive payment for your time and care the Friday following your bookings.",
     },
   ];
