@@ -57,6 +57,10 @@ nav ul {
   display: none;
 }
 
+.active-nav-link {
+  text-decoration: underline;
+}
+
 @keyframes slide-down {
   0% {
     transform: translateY(0);
