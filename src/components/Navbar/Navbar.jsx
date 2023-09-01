@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 import NavLinks from "./NavLinks";
 import UserAccess from "./UserAccess";
 import { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isShowing, setIsShowing] = useState(false);
@@ -21,9 +21,9 @@ const Navbar = () => {
   return (
     <nav className="nav-wrapper container">
       <div className="nav-logo-wrapper">
-        <Link to="/otter-replica">
+        <NavLink to="/otter-replica">
           <img src={logo} alt="" />
-        </Link>
+        </NavLink>
       </div>
       <div
         onTransitionEnd={() => handleTransition()}

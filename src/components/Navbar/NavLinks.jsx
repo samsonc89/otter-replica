@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavLinks = () => {
   return (
     <ul className="nav-links">
       <li>
-        <Link to="/otter-replica/parents">Parents</Link>
+        <NavLink to="/otter-replica/parents">Parents</NavLink>
       </li>
       <li>
-        <Link to="/otter-replica/sitters">Sitters</Link>
+        <NavLink to="/otter-replica/sitters">Sitters</NavLink>
       </li>
       <li>
         <a href="#trust">Trust & Safety</a>
